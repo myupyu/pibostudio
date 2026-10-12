@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Worlds from './Worlds.astro';
+import Pibo from './Pibo.astro';
+import { copy, type Locale } from '../lib/site';
+const { lang = 'en' } = Astro.props as { lang?: Locale };
+const t = copy[lang];
+---
+<Layout lang={lang}>
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span>{t.eyebrow}</p>
+        <h1 id="hero-title">{t.headline[0]}<br/><span class="hero-line">{t.headline[1]}<svg class="headline-spark" viewBox="0 0 52 52" aria-hidden="true"><path d="m26 4 4 15 12-9-8 13 15 3-15 4 9 12-13-8-4 15-3-15-13 8 9-12-15-4 15-3-9-13 13 9Z" fill="currentColor"/></svg></span></h1>
+        <p class="hero-description">{t.intro}</p>
+        <div class="hero-actions"><a class="button button-dark" href="#games">{t.explore}<span aria-hidden="true">↗</span></a><a class="text-link" href="#studio">{t.meet}<span aria-hidden="true">→</span></a></div>
+        <div class="hero-footnote"><span class="tiny-spark">✳</span><span>{t.orbitLabel}</span></div>
+      </div>
+      <Worlds lang={lang} />
+    </section>
+    <div class="values-strip wrap" aria-label={lang === 'en' ? 'Our spirit' : '우리가 담는 마음'}>{t.ticker.map((value, i) => <><span>{value}</span>{i < 2 && <span class="strip-flower" aria-hidden="true">✳</span>}</>)}<a href="#games" class="scroll-cue" aria-label={lang === 'en' ? 'Scroll to our games' : '우리의 게임으로 이동'}>↓</a></div>
+
+    <section class="games-section wrap section" id="games" aria-labelledby="games-title">
+      <div class="section-head reveal"><div><p class="section-label">{t.gamesLabel}</p><h2 id="games-title">{t.gamesTitle}</h2></div><p class="section-intro">{t.gamesIntro}</p></div>
+      <div class="game-empty reveal" data-tilt>
+        <div class="empty-art" aria-hidden="true"><div class="empty-orbit"></div><div class="empty-patch"></div><Pibo class="empty-pibo"/><span class="empty-mini-star">✳</span><span class="empty-caption">{t.emptyNote}</span></div>
+        <div class="empty-copy"><span class="pill"><span></span>{t.soon}</span><h3>{t.emptyTitle.split('\n').map(line => <span>{line}</span>)}</h3><p>{t.emptyBody}</p><div class="empty-doodle" aria-hidden="true"><svg viewBox="0 0 80 30" fill="none"><path d="M2 17C28-1 44 34 69 10m-10-4 12 3-4 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>good things ahead</div></div>
+      </div>
+    </section>
+
+    <section class="story-section" id="studio" aria-labelledby="story-title"><div class="story-inner wrap"><div class="story-copy reveal"><p class="section-label">{t.storyLabel}</p><h2 id="story-title">{t.storyTitle[0]}<br/><span>{t.storyTitle[1]}</span></h2><p class="story-lead">{t.storyBody}</p><p class="story-detail">{t.storySub}</p></div><div class="story-art reveal" aria-hidden="true"><div class="story-frame"><span class="frame-corner">+</span><span class="frame-number">A LITTLE BIT OF PIBO</span><Pibo variant="lilac" class="story-pibo"/><span class="story-stamp">{t.storyStamp[0]}<br/>{t.storyStamp[1]}</span><svg class="story-star" viewBox="0 0 60 60"><path d="m30 0 6 19L53 7l-12 18 19 5-19 6 12 17-17-12-6 19-5-19L7 53l12-17L0 30l19-5L7 7l18 12Z" fill="currentColor"/></svg></div><span class="story-scribble">little by little, lovely things grow.</span></div></div></section>
+
+    <section class="journal-section wrap section" id="journal" aria-labelledby="journal-title"><div class="section-head reveal"><div><p class="section-label">{t.journalLabel}</p><h2 id="journal-title">{t.journalTitle}</h2></div><p class="section-intro">{t.journalIntro}</p></div><div class="journal-empty reveal"><div class="journal-illustration" aria-hidden="true"><div class="paper paper-back"></div><div class="paper paper-front"><span class="paper-flower">✳</span><span class="paper-line"></span><span class="paper-line short"></span><span class="paper-date">HELLO, WORLD.</span><span class="paper-dot"></span></div></div><div class="journal-copy"><p class="section-label">{t.notesLabel}</p><h3>{t.notesTitle}</h3><p>{t.notesBody}</p><span class="journal-soon"><span></span>{t.notesSoon}</span></div><span class="journal-index" aria-hidden="true">01</span></div></section>
+
+    <section class="contact-section wrap reveal" id="contact" aria-labelledby="contact-title"><div><p class="section-label">{t.ctaLabel}</p><h2 id="contact-title">{t.ctaTitle}</h2><p>{t.ctaBody}</p></div><a class="contact-circle" href="mailto:hello@pibostudio.com" aria-label="hello@pibostudio.com"><span aria-hidden="true">↗</span></a><div class="contact-spark" aria-hidden="true">✳</div></section>
+  </main>
+</Layout>
