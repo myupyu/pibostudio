@@ -10,7 +10,7 @@ Official website for Pibo Studio, the umbrella brand for all our apps and games,
 
 ## Current milestone: homepage design review
 
-English `/` and Korean `/ko/` homepage previews are implemented. The user explicitly requested design confirmation before the remaining pages are implemented or the site is deployed. The public repository has been created; this milestone is saved locally and has not been pushed or deployed.
+English `/` and Korean `/ko/` homepage previews are implemented. The user explicitly requested design confirmation before the remaining pages are implemented or the site is deployed. The homepage design preview is versioned in Git. Production deployment remains pending design approval and the remaining site implementation.
 
 The homepage includes original SVG worlds and the Pibo mascot, responsive navigation, a pointer/touch particle canvas with a mobile automatic animation, theme persistence, reduced-motion handling, scroll reveals, and a small tilt effect on the empty product card. No product entries or blog posts have been added to this website yet. Legal footer labels are placeholders until their pages are implemented; they are intentionally plain text in this preview. Metadata currently includes `noindex, nofollow` for the preview milestone.
 
@@ -39,6 +39,6 @@ npm run preview -- --host 127.0.0.1 --port 4321
 3. English/Korean about, contact, support, privacy, terms and mascot 404 pages.
 4. Full metadata, social images, JSON-LD, hreflang, sitemap.xml, robots.txt, RSS and llms.txt.
 5. Full-route link checks, accessibility/performance validation, final screenshots.
-6. Push main and connect Cloudflare Pages Git integration, custom domains, www redirect, production verification.
+6. Connect Cloudflare Pages Git integration for automatic main-branch deployments, custom domains, www redirect, and production verification.
 
 The only public contact address is support@pibostudio.com. Cloudflare Email Routing has an active forwarding rule for this address. Keep its destination inbox out of public site content. End-to-end delivery has not yet been tested. No newsletter provider has been selected; the CTA opens an email.
