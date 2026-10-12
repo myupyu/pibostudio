@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Worlds from './Worlds.astro';
 import Pibo from './Pibo.astro';
-import { copy, type Locale } from '../lib/site';
+import { copy, contactEmail, type Locale } from '../lib/site';
 const { lang = 'en' } = Astro.props as { lang?: Locale };
 const t = copy[lang];
 ---
@@ -32,6 +32,6 @@ const t = copy[lang];
 
     <section class="journal-section wrap section" id="journal" aria-labelledby="journal-title"><div class="section-head reveal"><div><p class="section-label">{t.journalLabel}</p><h2 id="journal-title">{t.journalTitle}</h2></div><p class="section-intro">{t.journalIntro}</p></div><div class="journal-empty reveal"><div class="journal-illustration" aria-hidden="true"><div class="paper paper-back"></div><div class="paper paper-front"><span class="paper-flower">✳</span><span class="paper-line"></span><span class="paper-line short"></span><span class="paper-date">HELLO, WORLD.</span><span class="paper-dot"></span></div></div><div class="journal-copy"><p class="section-label">{t.notesLabel}</p><h3>{t.notesTitle}</h3><p>{t.notesBody}</p><span class="journal-soon"><span></span>{t.notesSoon}</span></div><span class="journal-index" aria-hidden="true">01</span></div></section>
 
-    <section class="contact-section wrap reveal" id="contact" aria-labelledby="contact-title"><div><p class="section-label">{t.ctaLabel}</p><h2 id="contact-title">{t.ctaTitle}</h2><p>{t.ctaBody}</p></div><a class="contact-circle" href="mailto:hello@pibostudio.com" aria-label="hello@pibostudio.com"><span aria-hidden="true">↗</span></a><div class="contact-spark" aria-hidden="true">✳</div></section>
+    <section class="contact-section wrap reveal" id="contact" aria-labelledby="contact-title"><div><p class="section-label">{t.ctaLabel}</p><h2 id="contact-title">{t.ctaTitle}</h2><p>{t.ctaBody}</p></div><a class="contact-circle" href={`mailto:${contactEmail}`} aria-label={contactEmail}><span aria-hidden="true">↗</span></a><div class="contact-spark" aria-hidden="true">✳</div></section>
   </main>
 </Layout>

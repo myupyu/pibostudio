@@ -3,7 +3,7 @@
 ## Purpose and owner
 - Official studio site at https://pibostudio.com.
 - Pibo Studio is the game brand of GATEPOP Inc. (게이트팝 주식회사).
-- Contact: hello@pibostudio.com. Do not claim that email routing is configured.
+- Only public contact: support@pibostudio.com (centralized as contactEmail in src/lib/site.ts). Keep the routing destination inbox out of public content. Confirm live routing state before claiming it is configured.
 - No games, reviews, download counts, or store links may be invented.
 
 ## Current milestone

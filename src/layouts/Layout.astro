@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { copy, locales, homeUrl, type Locale } from '../lib/site';
+import { copy, locales, homeUrl, contactEmail, type Locale } from '../lib/site';
 const { lang = 'en' } = Astro.props as { lang?: Locale };
 const t = copy[lang];
 const canonical = new URL(homeUrl(lang), 'https://pibostudio.com');
@@ -40,13 +40,13 @@ const canonical = new URL(homeUrl(lang), 'https://pibostudio.com');
       <div class="header-tools">
         <a class="language-switch" href={homeUrl(lang === 'en' ? 'ko' : 'en')} lang={lang === 'en' ? 'ko' : 'en'} aria-label={lang === 'en' ? '한국어로 보기' : 'View in English'}><svg viewBox="0 0 20 20" aria-hidden="true" fill="none"><circle cx="10" cy="10" r="7.1" stroke="currentColor" stroke-width="1.3"/><ellipse cx="10" cy="10" rx="3" ry="7.1" stroke="currentColor" stroke-width="1.3"/><path d="M3 10h14" stroke="currentColor" stroke-width="1.3"/></svg><span>{lang === 'en' ? 'KO' : 'EN'}</span></a>
         <button class="theme-toggle" type="button" aria-label={t.theme} aria-pressed="false" data-theme-toggle><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M20 14.4A8.1 8.1 0 0 1 9.6 4a8.2 8.2 0 1 0 10.4 10.4Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-        <a class="hello-link" href="mailto:hello@pibostudio.com">{t.hello}<span aria-hidden="true">↗</span></a>
+        <a class="hello-link" href={`mailto:${contactEmail}`}>{t.hello}<span aria-hidden="true">↗</span></a>
         <button class="menu-toggle" type="button" aria-label={t.menu} aria-expanded="false" aria-controls="main-nav" data-menu-toggle><span></span><span></span></button>
       </div>
     </header>
     <slot />
     <footer class="site-footer wrap">
-      <div class="footer-top"><a class="footer-wordmark" href={homeUrl(lang)}>pibo studio<span>.</span></a><p>{t.footerLine}</p><a class="footer-email" href="mailto:hello@pibostudio.com">hello@pibostudio.com <span aria-hidden="true">↗</span></a></div>
+      <div class="footer-top"><a class="footer-wordmark" href={homeUrl(lang)}>pibo studio<span>.</span></a><p>{t.footerLine}</p><a class="footer-email" href={`mailto:${contactEmail}`}>{contactEmail} <span aria-hidden="true">↗</span></a></div>
       <div class="footer-bottom"><p>{t.legal}<br/><span>{t.copyright}</span></p><div class="footer-legal" aria-label={lang === 'en' ? 'Legal pages will be added after design approval' : '디자인 확정 후 법적 페이지가 추가됩니다'}><span>{t.privacy}</span><span>{t.terms}</span><span>{t.support}</span></div><a href="#top" class="back-top" aria-label={lang === 'en' ? 'Back to top' : '맨 위로'}>↑</a></div>
     </footer>
     <script>import '../scripts/effects';</script>

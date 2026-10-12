@@ -41,4 +41,4 @@ npm run preview -- --host 127.0.0.1 --port 4321
 5. Full-route link checks, accessibility/performance validation, final screenshots.
 6. Push main and connect Cloudflare Pages Git integration, custom domains, www redirect, production verification.
 
-Email Routing for hello@pibostudio.com is configured separately by the owner. No newsletter provider has been selected; the CTA opens an email.
+The only public contact address is support@pibostudio.com. Cloudflare Email Routing has an active forwarding rule for this address. Keep its destination inbox out of public site content. End-to-end delivery has not yet been tested. No newsletter provider has been selected; the CTA opens an email.

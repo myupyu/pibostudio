@@ -1,3 +1,4 @@
+export const contactEmail = 'support@pibostudio.com';
 export const locales = {
   en: { name: 'English', prefix: '', htmlLang: 'en' },
   ko: { name: '한국어', prefix: '/ko', htmlLang: 'ko' },
