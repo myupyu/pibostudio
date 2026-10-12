@@ -35,7 +35,7 @@ const canonical = new URL(homeUrl(lang), 'https://pibostudio.com');
         <span>pibo<span class="brand-studio">studio</span><span class="brand-period">.</span></span>
       </a>
       <nav class="main-nav" aria-label={lang === 'en' ? 'Main navigation' : '주 메뉴'} id="main-nav">
-        <a href="#games">{t.games}</a><a href="#studio">{t.studio}</a><a href="#journal">{t.journal}</a>
+        <a href="#products">{t.products}</a><a href="#studio">{t.studio}</a><a href="#journal">{t.journal}</a>
       </nav>
       <div class="header-tools">
         <a class="language-switch" href={homeUrl(lang === 'en' ? 'ko' : 'en')} lang={lang === 'en' ? 'ko' : 'en'} aria-label={lang === 'en' ? '한국어로 보기' : 'View in English'}><svg viewBox="0 0 20 20" aria-hidden="true" fill="none"><circle cx="10" cy="10" r="7.1" stroke="currentColor" stroke-width="1.3"/><ellipse cx="10" cy="10" rx="3" ry="7.1" stroke="currentColor" stroke-width="1.3"/><path d="M3 10h14" stroke="currentColor" stroke-width="1.3"/></svg><span>{lang === 'en' ? 'KO' : 'EN'}</span></a>

@@ -1,6 +1,6 @@
 # Pibo Studio
 
-Official website project for Pibo Studio, the game brand of GATEPOP Inc.
+Official website for Pibo Studio, the umbrella brand for all our apps and games, operated by GATEPOP Inc. Product presentation belongs on Pibo Studio; the GATEPOP corporate website will not host an app catalogue.
 
 - Repository: https://github.com/myupyu/pibostudio
 - Production domain: https://pibostudio.com (not deployed by this project yet)
@@ -12,7 +12,7 @@ Official website project for Pibo Studio, the game brand of GATEPOP Inc.
 
 English `/` and Korean `/ko/` homepage previews are implemented. The user explicitly requested design confirmation before the remaining pages are implemented or the site is deployed. The public repository has been created; this milestone is saved locally and has not been pushed or deployed.
 
-The homepage includes original SVG worlds and the Pibo mascot, responsive navigation, a pointer/touch particle canvas with a mobile automatic animation, theme persistence, reduced-motion handling, scroll reveals, and a small tilt effect on the empty game card. There are no published games or posts. Legal footer labels are placeholders until their pages are implemented; they are intentionally plain text in this preview. Metadata currently includes `noindex, nofollow` for the preview milestone.
+The homepage includes original SVG worlds and the Pibo mascot, responsive navigation, a pointer/touch particle canvas with a mobile automatic animation, theme persistence, reduced-motion handling, scroll reveals, and a small tilt effect on the empty product card. No product entries or blog posts have been added to this website yet. Legal footer labels are placeholders until their pages are implemented; they are intentionally plain text in this preview. Metadata currently includes `noindex, nofollow` for the preview milestone.
 
 ```sh
 npm ci
@@ -34,8 +34,8 @@ npm run preview -- --host 127.0.0.1 --port 4321
 
 ## Remaining work after design approval
 
-1. Content Collections and automatic game routes, image folders, excluded example data, ADD-GAME.md.
-2. Studio and game blog routes, frontmatter schema, ADD-POST.md.
+1. A shared product Content Collection with kind `game` or `app`, automatic detail routes, image folders, excluded example data, ADD-GAME.md and ADD-APP.md. A combined /projects/ list with category filters, plus /games/ and /apps/ lists.
+2. Studio and per-product blog routes, frontmatter schema, ADD-POST.md. Use VideoGame structured data for games and SoftwareApplication for other apps.
 3. English/Korean about, contact, support, privacy, terms and mascot 404 pages.
 4. Full metadata, social images, JSON-LD, hreflang, sitemap.xml, robots.txt, RSS and llms.txt.
 5. Full-route link checks, accessibility/performance validation, final screenshots.
