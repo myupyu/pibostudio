@@ -1,0 +1,287 @@
+[
+  {
+    "path": "products/midnightbunsik/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/icon-512.png",
+    "sha256": "913a066f6aa7988b01b0ba837e909da80d17c9c61f9adf224d392bdf599f21a6"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/food-tteokbokki.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/food-tteokbokki-ready.svg",
+    "sha256": "b45eb39f3b9fb90b64c4d5458ed7b22b1db0088a93ddc29edae5bc07656d37a0"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/food-gimbap.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/food-gimbap-ready.svg",
+    "sha256": "05370febbbd17f004d3ff105fdc88aed1d0e508d6f5bde0f8b9ed730bbdd9eda"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/food-fishcake.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/food-fishcake-ready.svg",
+    "sha256": "df39ad21e48ff72243e6605b51374debc94d2817ceafd02e1da0a97cb59255d3"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/food-corndog.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/food-corndog-ready.svg",
+    "sha256": "98ebf64e24871052ac091722af267d9d36493b2f9080f4a8ae8a353768baaee0"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/food-ramen.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/food-ramen-ready.svg",
+    "sha256": "576bf6d3e5c1e451a9dbe24f43581411c00d898463391bc9447c6958954fa348"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/food-hotteok.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/food-hotteok-ready.svg",
+    "sha256": "30a3fb71ade078d20e731d4c883da98f17b522c370cd2d7b8fc021b051b50dcd"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/food-sikhye.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/food-sikhye-ready.svg",
+    "sha256": "278bd338e45719cc2a3ec1f202704aa2b526776ddd94ccede663767278e2ea24"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/keeper.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/character-keeper-idle.svg",
+    "sha256": "d81f5f84d843ff1be7e2c97b47d5dfee87a1937dd3880dd7d3cfffd6b5a05e84"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/granny.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/character-granny-idle.svg",
+    "sha256": "6e16ca70fac980933fa65894eacb4fcc0a843b444549826d9168e730b634a7ee"
+  },
+  {
+    "path": "products/midnightbunsik/pixel/postman.svg",
+    "source": "/Users/danpro/Documents/GitHub/midnightbunsik/public/assets/pixel/character-postman-idle.svg",
+    "sha256": "d29fddfe020bccd404dc718a6ab909407421ac61a48400abcd5cee40d0480144"
+  },
+  {
+    "path": "products/stockpets/home.webp",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/shots/home.webp",
+    "sha256": "c57b006ae036c2e72aef9797ff3c9073c14be9bcfd36b69ff08ac5f73f12abec"
+  },
+  {
+    "path": "products/stockpets/field.webp",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/shots/field.webp",
+    "sha256": "24f1140a245df6721cbd99534286b95fb7f1f591424ffa69daa109d7c7e55ceb"
+  },
+  {
+    "path": "products/stockpets/friday.webp",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/shots/friday.webp",
+    "sha256": "57371927fa0d1e9f8ccbfbd2e3f8d6c6ec60b96e5a2ef1780bfe756998196ee1"
+  },
+  {
+    "path": "products/stockpets/dex.webp",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/shots/dex.webp",
+    "sha256": "d4e63fe60d343163b1aff6e73757bf9da44247bf07ee860b831b304acb467f0a"
+  },
+  {
+    "path": "products/stockpets/news.webp",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/shots/news.webp",
+    "sha256": "d1233e6549f6d6b5648b4ab7d58b775bab1ba78f9447a7a85c0d1f2896aaa0db"
+  },
+  {
+    "path": "products/stockpets/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/app-icon.png",
+    "sha256": "d408f7c58f492537a3d8ac2aa96d680f50981dd25db3d13f1ae9ca49071e8cd3"
+  },
+  {
+    "path": "products/stockpets/social.jpg",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/og-journey.jpg",
+    "sha256": "9bd877082f9c8de69a599708c09e22d51ab3b3547976408f3fd78f584c757df4"
+  },
+  {
+    "path": "products/stockpets/pixel/prop_coin.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/prop_coin.png",
+    "sha256": "03bfe170e389adcd57cd64ab8d8e0a9592b2d560c48462a633e196a95c230498"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_tomato_seed.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_tomato_seed.png",
+    "sha256": "ea22a59e2f44007b064f3315ff5a73331b56af5a14a87cc4a2fd36c70ecf4a30"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_tomato_sprout.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_tomato_sprout.png",
+    "sha256": "3259b97f2bcba5a73a5dc549781155a8bf98bf31cf2a7675d7162304a97c484d"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_baby_happy.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_baby_happy.png",
+    "sha256": "7746a4f3c2badad84b81faf7ee9671e29471082c6c56cc4996ea88f166394210"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_tomato_flower.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_tomato_flower.png",
+    "sha256": "89ff6c8bb5a7a4eb7eaf1c081c697441834a809349e20a0cbe84877c49917b1b"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_chili_flower.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_chili_flower.png",
+    "sha256": "008afba4f4e6f9ee224a7f2635c5d41567f6e3f3464f392fcf2bed62a9d1ce98"
+  },
+  {
+    "path": "products/stockpets/pixel/furn_clock.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/furn_clock.png",
+    "sha256": "05973ff27a5add7dd895b7bf06f4f508bdbdb3b431853de7c96e116d974802c9"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_tomato_wilt2.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_tomato_wilt2.png",
+    "sha256": "bccfa0acb8345619d68ecb6192b7897620465737fcd9d56584d2eb9d7ff787f5"
+  },
+  {
+    "path": "products/stockpets/pixel/prop_watering_can.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/prop_watering_can.png",
+    "sha256": "bbf3f2cfeed040ece096a952007ec41078b93895fcc47b45eabfe88e8034b32e"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_tomato_wilt1.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_tomato_wilt1.png",
+    "sha256": "651782fdb1206ed7eda1d36215d3d5058ba93d3152470f662dc5997310dacd90"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_juvenile_happy.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_juvenile_happy.png",
+    "sha256": "5f5ba3f4fb9f66c1d5a936df7ef22db18b12ea6e49d57d54a53269b6cb6c47ec"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_flowerbed_flower.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_flowerbed_flower.png",
+    "sha256": "a6b61b49854c53625e3affdb3f16076f2b4d4d2953c3c6993e895886beee8afd"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_bear_adult_cozy_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_bear_adult_cozy_normal.png",
+    "sha256": "93c0d21c46d8f826ce5492df6bad3cbc1a00d58e1ba7662b872b64281616d012"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_adult_rainy_happy.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_adult_rainy_happy.png",
+    "sha256": "f598fbcff3b2a0a2505e9949cb3d93668eedc41157bb0eaaba8e750ab0ef3718"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_adult_cozy_happy.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_adult_cozy_happy.png",
+    "sha256": "46d9dae34ca87736cfd2b61785b26ab66e2e43ba87bc6d29938532960974b8b6"
+  },
+  {
+    "path": "products/stockpets/pixel/egg_cat.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/egg_cat.png",
+    "sha256": "a27091a86eefe88f22590e2f41592dd8ceb562408cf21d5b1ad0c6da4069a8fb"
+  },
+  {
+    "path": "products/stockpets/pixel/furn_radio.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/furn_radio.png",
+    "sha256": "646677bca394f5daad8b35afd424f66baf5ba5a12a5ea81e13cf984da519c0d1"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_dog_adult_cozy_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_dog_adult_cozy_normal.png",
+    "sha256": "d0e6d75ecca6199d1e8ba21cee780255c418f5522ec2b4634384d3c21f047e5d"
+  },
+  {
+    "path": "products/stockpets/pixel/furn_rug.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/furn_rug.png",
+    "sha256": "a252b0aa826ca45c9ac7e918d327999ca270fe224547a8002bb18a82749d68bc"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_tomato_fruit.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_tomato_fruit.png",
+    "sha256": "2258838975c321f0fcb2e2c4729cab55835a3decf36127c257e49f009d322c95"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_adult_scruffy_happy.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_adult_scruffy_happy.png",
+    "sha256": "8f28980c56b494c7060c72c08fe23009d9e1b3fbd2fa2fe9e08c467c3bdce31b"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_adult_explorer_happy.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_adult_explorer_happy.png",
+    "sha256": "8cab513507e7d9825baf90fa9df401311ff0f4d5924927c49dbca86c87074f3b"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_rabbit_adult_cozy_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_rabbit_adult_cozy_normal.png",
+    "sha256": "7e81fb177ae3a3c7f8151f6a28b9891ad6f611472088aee97ef7a1d4a04e0974"
+  },
+  {
+    "path": "products/stockpets/pixel/prop_heart_full.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/prop_heart_full.png",
+    "sha256": "051fa1318ac94ccd5e2204bb30fd2433d44c96703dda6389f02c60189239fc85"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_hamster_adult_cozy_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_hamster_adult_cozy_normal.png",
+    "sha256": "657cbba0f5523e8642b0a6e9c085f1a5da5903b7128c171562ccc16bfb1881f6"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_adult_sparkle_happy.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_adult_sparkle_happy.png",
+    "sha256": "017fa1665157b720b14423cf5e0866054dc41d8e7e8ea4b2cbd34d20fbe6db17"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_adult_cozy_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_adult_cozy_normal.png",
+    "sha256": "d4070f823446afe3891488570e100de578c6f291ca3fe49044d69fdbfadbfdc2"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_owl_adult_cozy_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_owl_adult_cozy_normal.png",
+    "sha256": "a7c632147606c038eacef47786d98f5e42bd73a3dfbc8e08709b37e252c6413c"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_sunflower_flower.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_sunflower_flower.png",
+    "sha256": "ccec279f2fc5a51304bcb020bdcd2202515b773de5a9839ead75a58b1b990106"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_tomato_leafy.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_tomato_leafy.png",
+    "sha256": "e3bd0d519b97ec14b53b9f2cce5dd9a36ce14310cf8e0b7f81ad0f61ce76a163"
+  },
+  {
+    "path": "products/stockpets/pixel/furn_plant_pot.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/furn_plant_pot.png",
+    "sha256": "93150c4596f6981aa1fdee5c4f9208569037a24a737637d4b6202b0b8354ec97"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_squirrel_adult_cozy_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_squirrel_adult_cozy_normal.png",
+    "sha256": "b5739137435a3b08576e320732af90e48a53dc4d7a4f3b411f955abce023ff85"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_turtle_adult_cozy_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_turtle_adult_cozy_normal.png",
+    "sha256": "a1a7f4b6095eb05a3e7af29143b27dbe0d58ef3dcb4650cb8bf5d8a33d0a3d7a"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_apple_fruit.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_apple_fruit.png",
+    "sha256": "94e441df3381bff2c0ba2d6cc2afc1f6daaaf497dd553ffcbcaed9b2d9a2e1fa"
+  },
+  {
+    "path": "products/stockpets/pixel/crop_tomato_golden.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/crop_tomato_golden.png",
+    "sha256": "55347ff116768303f6aa3566cf0fb68e732f8df9eb9607b31194b10b892047ef"
+  },
+  {
+    "path": "products/stockpets/pixel/pet_cat_adult_sparkle_normal.png",
+    "source": "/Users/danpro/Documents/GitHub/stockpets-web/assets/px/pet_cat_adult_sparkle_normal.png",
+    "sha256": "3183faa6dc2d96b71fa2d6116454f35949e50995163cea7ce97b19a591109454"
+  },
+  {
+    "path": "products/midnightbunsik/order.jpg",
+    "source": "/Users/danpro/Documents/Codex/2026-10-14/users-danpro-documents-github-midnightbunsik-iphone/outputs/store/screenshots/35-release-first-order.jpeg",
+    "sha256": "3b8626d7521ad91b2e44fd3302c28657e16182986b3083d1d12d75fd5992ce5b"
+  },
+  {
+    "path": "products/midnightbunsik/cooking.jpg",
+    "source": "/Users/danpro/Documents/Codex/2026-10-14/users-danpro-documents-github-midnightbunsik-iphone/outputs/store/screenshots/36-release-first-cooking.jpeg",
+    "sha256": "d437e6786ed22cdc2f660ca6f561cd96cec01f27eda333f1317367885213bcd5"
+  },
+  {
+    "path": "products/midnightbunsik/result.jpg",
+    "source": "/Users/danpro/Documents/Codex/2026-10-14/users-danpro-documents-github-midnightbunsik-iphone/outputs/store/screenshots/37-release-first-result.jpeg",
+    "sha256": "1618f222b93af544b07b700c183276f0483c81a0f12dde93bd14579b2275557a"
+  }
+]

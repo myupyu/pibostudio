@@ -1,0 +1,8 @@
+---
+import Pibo from './Pibo.astro';
+import type {Article,Product} from '../lib/content';
+const {post,product}=Astro.props as {post:Article,product?:Product};
+const night=product?.data.accent==='night';const garden=product?.data.accent==='garden';
+const names=post.data.art?.sprites??(night?['tteokbokki','gimbap','sikhye']:garden?['crop_tomato_seed','crop_tomato_sprout','pet_cat_adult_cozy_happy']:[]);
+---
+<div class:list={['post-art',night?'post-art-night':garden?'post-art-garden':'post-art-studio']} aria-hidden="true"><span>{post.data.art?.label??(night?'A LITTLE AFTER MIDNIGHT':'GROW TOGETHER')}</span><div>{!night&&!garden?<Pibo class="post-studio-pibo"/>:names.map(n=><img class="pixel-art" src={night?`/products/midnightbunsik/pixel/food-${n}.svg`:`/products/stockpets/pixel/${n}.png`} alt="" width="76" height="76" loading="lazy"/>)}</div><b>✧</b></div>

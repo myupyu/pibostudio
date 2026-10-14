@@ -1,9 +1,14 @@
 ---
 import '../styles/global.css';
+import '../styles/products.css';
 import { copy, locales, homeUrl, contactEmail, type Locale } from '../lib/site';
-const { lang = 'en' } = Astro.props as { lang?: Locale };
+const {lang='en', title, description, image='/favicon.svg', structured, alternates} = Astro.props as {lang?:Locale,title?:string,description?:string,image?:string,structured?:Record<string,unknown>,alternates?:{lang:Locale,path:string}[]};
+const path=Astro.url.pathname;
+const suffix=path.replace(/^\/ko(?=\/)/,'').replace(/^\/+|\/+$/g,'');
+const links=alternates??Object.keys(locales).map(lang=>({lang:lang as Locale,path:`${locales[lang as Locale].prefix}/${suffix}${suffix?'/':''}`}));
+const other=links.find(l=>l.lang!==lang)?.path;
 const t = copy[lang];
-const canonical = new URL(homeUrl(lang), 'https://pibostudio.com');
+const canonical = new URL(path, 'https://pibostudio.com');
 ---
 <!doctype html>
 <html lang={locales[lang].htmlLang}>
@@ -12,12 +17,20 @@ const canonical = new URL(homeUrl(lang), 'https://pibostudio.com');
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#f9f8f3" />
-    <title>{t.title}</title>
-    <meta name="description" content={t.description} />
-    <meta name="robots" content="noindex, nofollow" />
+    <title>{title??t.title}</title>
+    <meta name="description" content={description??t.description} />
+    <meta name="robots" content="index, follow" />
     <link rel="canonical" href={canonical} />
-    {Object.entries(locales).map(([code]) => <link rel="alternate" hreflang={code} href={new URL(homeUrl(code as Locale), 'https://pibostudio.com')} />)}
-    <link rel="alternate" hreflang="x-default" href="https://pibostudio.com/" />
+    {links.map(l=><link rel="alternate" hreflang={l.lang} href={new URL(l.path,'https://pibostudio.com')}/>)}
+    <link rel="alternate" hreflang="x-default" href={new URL(links.find(l=>l.lang==='en')?.path??'/','https://pibostudio.com')} />
+    <meta property="og:title" content={title??t.title}/>
+    <meta property="og:description" content={description??t.description}/>
+    <meta property="og:url" content={canonical}/>
+    <meta property="og:type" content={structured?.['@type']==='BlogPosting'?'article':'website'}/>
+    <meta property="og:image" content={new URL(image,'https://pibostudio.com')}/>
+    <meta name="twitter:card" content={image.endsWith('.svg')?'summary':'summary_large_image'}/>
+    {structured&&<script type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g,'\u003c')}/>}
+    <link rel="alternate" type="application/rss+xml" title={lang==='ko'?'PIBO Studio 저널':'Pibo Studio Journal'} href={`${locales[lang].prefix}/rss.xml`}/>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,10 +48,10 @@ const canonical = new URL(homeUrl(lang), 'https://pibostudio.com');
         <span>pibo<span class="brand-studio">studio</span><span class="brand-period">.</span></span>
       </a>
       <nav class="main-nav" aria-label={lang === 'en' ? 'Main navigation' : '주 메뉴'} id="main-nav">
-        <a href="#products">{t.products}</a><a href="#studio">{t.studio}</a><a href="#journal">{t.journal}</a>
+        <a href={`${locales[lang].prefix}/projects/`}>{t.products}</a><a href={`${homeUrl(lang)}#studio`}>{t.studio}</a><a href={`${locales[lang].prefix}/blog/`}>{t.journal}</a>
       </nav>
       <div class="header-tools">
-        <a class="language-switch" href={homeUrl(lang === 'en' ? 'ko' : 'en')} lang={lang === 'en' ? 'ko' : 'en'} aria-label={lang === 'en' ? '한국어로 보기' : 'View in English'}><svg viewBox="0 0 20 20" aria-hidden="true" fill="none"><circle cx="10" cy="10" r="7.1" stroke="currentColor" stroke-width="1.3"/><ellipse cx="10" cy="10" rx="3" ry="7.1" stroke="currentColor" stroke-width="1.3"/><path d="M3 10h14" stroke="currentColor" stroke-width="1.3"/></svg><span>{lang === 'en' ? 'KO' : 'EN'}</span></a>
+        <a class="language-switch" href={other??homeUrl(lang === 'en' ? 'ko' : 'en')} lang={lang === 'en' ? 'ko' : 'en'} aria-label={lang === 'en' ? '한국어로 보기' : 'View in English'}><svg viewBox="0 0 20 20" aria-hidden="true" fill="none"><circle cx="10" cy="10" r="7.1" stroke="currentColor" stroke-width="1.3"/><ellipse cx="10" cy="10" rx="3" ry="7.1" stroke="currentColor" stroke-width="1.3"/><path d="M3 10h14" stroke="currentColor" stroke-width="1.3"/></svg><span>{lang === 'en' ? 'KO' : 'EN'}</span></a>
         <button class="theme-toggle" type="button" aria-label={t.theme} aria-pressed="false" data-theme-toggle><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M20 14.4A8.1 8.1 0 0 1 9.6 4a8.2 8.2 0 1 0 10.4 10.4Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         <a class="hello-link" href={`mailto:${contactEmail}`}>{t.hello}<span aria-hidden="true">↗</span></a>
         <button class="menu-toggle" type="button" aria-label={t.menu} aria-expanded="false" aria-controls="main-nav" data-menu-toggle><span></span><span></span></button>
@@ -47,7 +60,7 @@ const canonical = new URL(homeUrl(lang), 'https://pibostudio.com');
     <slot />
     <footer class="site-footer wrap">
       <div class="footer-top"><a class="footer-wordmark" href={homeUrl(lang)}>pibo studio<span>.</span></a><p>{t.footerLine}</p><a class="footer-email" href={`mailto:${contactEmail}`}>{contactEmail} <span aria-hidden="true">↗</span></a></div>
-      <div class="footer-bottom"><p>{t.legal}<br/><span>{t.copyright}</span></p><div class="footer-legal" aria-label={lang === 'en' ? 'Legal pages will be added after design approval' : '디자인 확정 후 법적 페이지가 추가됩니다'}><span>{t.privacy}</span><span>{t.terms}</span><span>{t.support}</span></div><a href="#top" class="back-top" aria-label={lang === 'en' ? 'Back to top' : '맨 위로'}>↑</a></div>
+      <div class="footer-bottom"><p>{t.legal}<br/><span>{t.copyright}</span></p><div class="footer-legal" aria-label={lang === 'en' ? 'Studio information and support' : '스튜디오 안내와 지원'}><a href={`${locales[lang].prefix}/privacy/`}>{t.privacy}</a><a href={`${locales[lang].prefix}/terms/`}>{t.terms}</a><a href={`${locales[lang].prefix}/support/`}>{t.support}</a></div><a href="#top" class="back-top" aria-label={lang === 'en' ? 'Back to top' : '맨 위로'}>↑</a></div>
     </footer>
     <script>import '../scripts/effects';</script>
   </body>

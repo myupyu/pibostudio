@@ -38,3 +38,15 @@
 - ADD-GAME.md, ADD-APP.md and ADD-POST.md will document the final schema and procedure after design approval.
 - Keep tokens, passwords, .env files, local credentials, caches and build output out of commits.
 - Never modify other projects. Do not deploy the homepage preview as a completed site.
+
+## Authorized product integration · 2026-10-15
+- The user explicitly asked to put Midnight Bunsik’s website/blog inside PIBO and add StockPets in the same format. This authorized the shared product/blog/guide/support implementation despite the earlier homepage-only milestone.
+- Both entries and localized content now live in Content Collections. Preserve original game repositories and StockPets standalone site.
+- Preview noindex/robots guards remain. Deployment, push, DNS changes and public publication still require separate user direction/design approval. Do not treat this implementation request as standing permission to publish.
+- See README and docs/PRODUCT-INTEGRATION-2026-10-15.md for current status.
+
+## Authorized publication · 2026-10-15
+- The owner explicitly approved public deployment of the prepared Pibo homepage and policies, and connection of the existing pibostudio.com domain. This supersedes the prior publication hold for these pages.
+- Use the existing Cloudflare account and free static Pages hosting. Preserve other projects and mail DNS records. No domain purchase, paid plan, account security change or app store submission is authorized by this approval.
+
+- The owner also explicitly approved committing/pushing the prepared site sources and documentation to myupyu/pibostudio main for automatic deployment, and adding www.pibostudio.com to the same site.

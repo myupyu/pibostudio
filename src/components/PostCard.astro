@@ -1,0 +1,6 @@
+---
+import PostArt from './PostArt.astro';
+import {articleUrl,dateLabel,type Article,type Product} from '../lib/content';
+const {post,product}=Astro.props as {post:Article,product?:Product};const lang=post.data.lang;
+---
+<a class="post-card" href={articleUrl(post)}><PostArt post={post} product={product}/><div class="post-card-copy"><p class="post-meta"><time datetime={post.data.date}>{dateLabel(post.data.date,lang)}</time> · {product?.data.copy[lang].name??'Pibo Studio'}</p><h3>{post.data.title}</h3><p>{post.data.description}</p><span class="text-link">{lang==='ko'?'이야기 읽기':'Read the story'} <span aria-hidden="true">→</span></span></div></a>

@@ -1,0 +1,17 @@
+---
+import Pibo from './Pibo.astro';
+import type { Product } from '../lib/content';
+import type { Locale } from '../lib/site';
+const {product,lang,interactive=false} = Astro.props as {product:Product,lang:Locale,interactive?:boolean};
+const midnight=product.data.accent==='night';const garden=product.data.accent==='garden';const studio=!midnight&&!garden;
+const ids=midnight?['tteokbokki','gimbap','fishcake','corndog','ramen','hotteok','sikhye']:['cat','dog','rabbit','hamster','squirrel','turtle','owl','bear'];
+const names=midnight?(lang==='ko'?['떡볶이','김밥','어묵','핫도그','라면','호떡','식혜']:['Tteokbokki','Gimbap','Fish cake','Corn dog','Ramyeon','Hotteok','Sikhye']):(lang==='ko'?['고양이','강아지','토끼','햄스터','다람쥐','거북이','부엉이','곰']:['Cat','Dog','Rabbit','Hamster','Squirrel','Turtle','Owl','Bear']);
+const src=(id:string)=>midnight?`/products/midnightbunsik/pixel/food-${id}.svg`:`/products/stockpets/pixel/pet_${id}_adult_cozy_normal.png`;
+---
+<div class:list={['product-art',midnight?'art-night':garden?'art-garden':'art-studio',interactive?'interactive-art':'']} data-product-art>
+  <div class="product-scene" role="img" aria-label={lang==='ko'?(midnight?'달빛 아래 따뜻한 분식 한 그릇':'픽셀 친구와 씨앗이 자라는 작은 농장'):(midnight?'A warm dish under the midnight moon':'A little farm with a pixel companion and growing seeds')}>
+    {studio?<Pibo class="art-studio-pibo"/>:midnight?<><div class="art-moon" aria-hidden="true"></div><div class="art-stars" aria-hidden="true">✦ · ✧ ·</div><span class="art-sign">{lang==='ko'?'저승분식':'MIDNIGHT BUNSIK'}</span><div class="art-window" aria-hidden="true"></div><img class="art-keeper pixel-art" src="/products/midnightbunsik/pixel/keeper.svg" alt="" width="112" height="144"/><div class="art-counter" aria-hidden="true"></div><div class="art-meal"><img class="pixel-art" data-preview-image src={src(ids[0])} alt="" width="160" height="160"/></div><div class="art-lantern" aria-hidden="true"></div></>:<><div class="art-sun" aria-hidden="true"></div><div class="art-cloud" aria-hidden="true"></div><div class="art-hill" aria-hidden="true"></div><span class="art-sign">1996 →</span><div class="art-soil" aria-hidden="true"></div><div class="art-crops" aria-hidden="true">{['crop_tomato_sprout','crop_sunflower_flower','crop_apple_fruit'].map(n=><img class="pixel-art" src={`/products/stockpets/pixel/${n}.png`} alt="" width="72" height="72"/>)}</div><img data-preview-image class="art-friend pixel-art" src={src(ids[0])} alt="" width="152" height="152"/></>}
+  </div>
+  {interactive&&!studio&&<div class="art-preview"><p><span>{lang==='ko'?(midnight?'메뉴 미리보기':'친구 미리보기'):(midnight?'A peek at the menu':'Meet a little friend')}</span><strong data-preview-name aria-live="polite">{names[0]}</strong></p><div class="art-choices" role="group" aria-label={lang==='ko'?(midnight?'음식 그림 선택':'펫 그림 선택'):(midnight?'Choose a food illustration':'Choose a pet illustration')}>{ids.map((id,i)=><button type="button" aria-label={names[i]} aria-pressed={i===0?'true':'false'} data-art-choice data-src={src(id)} data-name={names[i]}><img class="pixel-art" src={src(id)} alt="" width="40" height="40" loading="lazy"/></button>)}</div><small>{lang==='ko'?'게임에 사용하는 실제 그림을 미리 볼 수 있어요.':'Preview the actual illustrations used in the game.'}</small></div>}
+</div>
+<script>import '../scripts/products';</script>

@@ -1,0 +1,152 @@
+{
+  "slug": "example-app",
+  "kind": "app",
+  "status": "development",
+  "icon": "/products/midnightbunsik/icon.png",
+  "socialImage": "/products/midnightbunsik/icon.png",
+  "platforms": [
+    "iPhone"
+  ],
+  "accent": "night",
+  "order": 1,
+  "copy": {
+    "ko": {
+      "name": "저승분식",
+      "tagline": "마지막 한 끼를 차리는 작은 가게.",
+      "description": "일곱 가지 분식을 손으로 차리고, 마지막 한 끼의 기억을 간직하며, 내 취향의 식탁을 완성하는 이야기 게임.",
+      "intro": "밤이 깊어지면 작은 분식집에 손님이 찾아옵니다. 주문을 듣고, 내 손으로 한 그릇을 차리고, 잠시 같은 식탁에 앉아 주세요. 한 끼가 끝나도 그날의 기억은 가게에 남습니다.",
+      "genre": "이야기 · 조리 · 꾸미기",
+      "status": "iPhone 출시 준비 중",
+      "purchase": "한 번 구매하는 유료 게임으로 준비하고 있습니다. 정식 출시일과 가격은 아직 정하지 않았습니다.",
+      "features": [
+        {
+          "title": "손으로 차리는 일곱 그릇",
+          "body": "떡볶이, 김밥, 어묵, 핫도그, 라면, 호떡, 식혜. 재료를 놓고, 조리하고, 마무리하며 서로 다른 손길로 한 끼를 차립니다."
+        },
+        {
+          "title": "작별까지 이어지는 손님 이야기",
+          "body": "첫 21밤의 본편, 그 뒤에 이어지는 후속 이야기, 그리고 선택해서 여는 영업. 서툴게 차려도 핵심 이야기는 계속됩니다."
+        },
+        {
+          "title": "내가 고른 식탁에 남는 기억",
+          "body": "매운맛과 마무리, 앉을 자리와 작은 소품을 고릅니다. 식사가 끝난 뒤 손님의 반응과 가게에 남은 흔적으로 선택을 돌아봅니다."
+        }
+      ],
+      "facts": [
+        {
+          "label": "이야기",
+          "value": "첫 21밤 + 후속 이야기"
+        },
+        {
+          "label": "내 손으로",
+          "value": "7가지 분식"
+        },
+        {
+          "label": "언어",
+          "value": "한국어 · English"
+        },
+        {
+          "label": "진행",
+          "value": "기기 저장 · 오프라인"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/products/midnightbunsik/order.jpg",
+          "caption": "손님의 주문을 듣고 오늘의 한 끼를 준비합니다."
+        },
+        {
+          "src": "/products/midnightbunsik/cooking.jpg",
+          "caption": "재료를 놓고 조리하는 직접 차리기 화면입니다."
+        },
+        {
+          "src": "/products/midnightbunsik/result.jpg",
+          "caption": "한 그릇 뒤에 남는 손님의 반응을 읽어 보세요."
+        }
+      ],
+      "faq": [
+        {
+          "q": "지금 다운로드할 수 있나요?",
+          "a": "현재 iPhone용 게임을 개발하고 내부 TestFlight에서 검토하고 있습니다. 공개 다운로드는 정식 출시 후 이 페이지에 안내합니다."
+        },
+        {
+          "q": "조리에 실패하면 이야기를 놓치나요?",
+          "a": "서툰 한 끼 뒤에도 손님의 이야기와 관계는 이어집니다. 느긋한 조리와 차분한 입력을 선택할 수도 있습니다."
+        },
+        {
+          "q": "결말 뒤에도 계속 영업해야 하나요?",
+          "a": "본편과 후속 이야기는 마무리가 있습니다. 이후에는 좋아하는 메뉴와 식탁을 위해 원할 때 영업하거나 쉬어도 됩니다."
+        }
+      ]
+    },
+    "en": {
+      "name": "Midnight Bunsik",
+      "tagline": "A little shop. One last meal.",
+      "description": "Prepare seven Korean street foods by hand, keep the memory of a last meal, and make a table that feels like your own.",
+      "intro": "When night falls, guests arrive at a small snack shop. Listen to an order, prepare a bowl with your hands, and share a little time at the table. The meal ends; its memory stays in the shop.",
+      "genre": "Story · Cooking · Decorating",
+      "status": "In development for iPhone",
+      "purchase": "Being prepared as a one-time paid game. The public release date and price have not been announced.",
+      "features": [
+        {
+          "title": "Seven dishes, made by hand",
+          "body": "Tteokbokki, gimbap, fish cake, corn dogs, ramyeon, hotteok, and sikhye. Place ingredients, cook, and finish each meal with its own small gestures."
+        },
+        {
+          "title": "Guest stories that reach a farewell",
+          "body": "The first 21-night story, a concluding follow-up, and optional service afterward. An imperfect dish never stops the essential story."
+        },
+        {
+          "title": "A table that remembers your choices",
+          "body": "Choose heat, a finishing touch, a seat, and little keepsakes. Read a guest’s response and notice what remains after the meal."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Story",
+          "value": "21 nights + a follow-up"
+        },
+        {
+          "label": "Made by hand",
+          "value": "7 street foods"
+        },
+        {
+          "label": "Languages",
+          "value": "한국어 · English"
+        },
+        {
+          "label": "Progress",
+          "value": "On-device · Offline"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/products/midnightbunsik/order.jpg",
+          "caption": "Listen to a guest’s order and prepare their meal."
+        },
+        {
+          "src": "/products/midnightbunsik/cooking.jpg",
+          "caption": "Place ingredients and cook on the direct preparation screen."
+        },
+        {
+          "src": "/products/midnightbunsik/result.jpg",
+          "caption": "Take your time with the guest’s response after serving."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I download it now?",
+          "a": "The iPhone game is in development and being reviewed in internal TestFlight. Public download links will be added here after release."
+        },
+        {
+          "q": "Will I miss the story if I cook badly?",
+          "a": "Guest stories and relationships continue after an imperfect meal. Relaxed timing and calm controls are also available."
+        },
+        {
+          "q": "Do I have to keep working after the ending?",
+          "a": "The main story and follow-up both conclude. Afterward, open for your favorite dishes and table arrangements whenever you like, or rest."
+        }
+      ]
+    }
+  }
+}

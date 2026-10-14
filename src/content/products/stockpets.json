@@ -1,0 +1,171 @@
+{
+  "slug": "stockpets",
+  "kind": "game",
+  "status": "released",
+  "icon": "/products/stockpets/icon.png",
+  "socialImage": "/products/stockpets/social.jpg",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "garden",
+  "order": 2,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/app/id6818586999"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.stockpets.app"
+    }
+  ],
+  "officialSite": {
+    "en": "https://stockpets.com/en/",
+    "ko": "https://stockpets.com/ko/"
+  },
+  "privacy": {
+    "en": "https://stockpets.com/en/privacy/",
+    "ko": "https://stockpets.com/ko/privacy/"
+  },
+  "copy": {
+    "ko": {
+      "name": "StockPets",
+      "tagline": "이번 생은, 작은 농장의 주인.",
+      "description": "1996년으로 돌아가 픽셀 펫을 돌보고, 미국 주식의 과거 가격 흐름으로 나만의 농장을 키우는 게임.",
+      "intro": "작은 농장, 새 친구, 그리고 어렴풋이 기억나는 미래. 익숙한 기업을 씨앗으로 심고, 가상 코인으로 수확하고, 준비가 되었을 때 달력 한 장을 넘겨 보세요.",
+      "genre": "펫 · 농장 · 가상 투자",
+      "status": "iPhone · Android에서 만나보세요",
+      "purchase": "무료로 시작할 수 있습니다. iPhone판에는 하단 배너 광고와 이를 영구적으로 없애는 선택형 일회성 구매가 있습니다. 플랫폼별 최신 조건은 각 스토어에서 확인하세요.",
+      "features": [
+        {
+          "title": "미국 주식의 역사가 작은 씨앗으로",
+          "body": "과거 미국 기업의 월말 가격 흐름에 따라 작물이 자라고 시듭니다. 실제 주식 거래나 돈의 입출금 없이 가상 코인으로 경험합니다."
+        },
+        {
+          "title": "함께 커 가는 여덟 친구",
+          "body": "밥을 주고, 놀고, 청소하며 펫과 시간을 보냅니다. 돌봄과 수확의 경험이 친구의 성장 모습과 추억에 남습니다."
+        },
+        {
+          "title": "달력 한 장씩, 내 속도로",
+          "body": "첫 12개월은 자유롭게 넘깁니다. 이후에는 8시간마다 달력 한 장이 채워져 최대 세 장을 모을 수 있습니다. 진행은 내 기기에 저장됩니다."
+        }
+      ],
+      "facts": [
+        {
+          "label": "시작",
+          "value": "1996년 1월"
+        },
+        {
+          "label": "함께 자라는",
+          "value": "8종의 픽셀 펫"
+        },
+        {
+          "label": "iPhone 언어",
+          "value": "17개 언어"
+        },
+        {
+          "label": "재화",
+          "value": "가상 코인만 사용"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/products/stockpets/home.webp",
+          "caption": "집에서 밥 주기, 놀기, 청소하기로 친구를 돌봅니다."
+        },
+        {
+          "src": "/products/stockpets/field.webp",
+          "caption": "과거 가격 변화에 따라 달라지는 나만의 텃밭입니다."
+        },
+        {
+          "src": "/products/stockpets/dex.webp",
+          "caption": "함께 보낸 시간이 펫의 성장 모습에 남습니다."
+        }
+      ],
+      "faq": [
+        {
+          "q": "실제 주식을 사고파는 게임인가요?",
+          "a": "실제 거래나 증권 계좌 연결은 없습니다. 게임 코인은 가상 재화이며 현금·경품으로 바꿀 수 없습니다. 과거 가격 변화는 실제 투자 결과를 재현하거나 미래 결과를 보장하지 않습니다."
+        },
+        {
+          "q": "무료로 시작할 수 있나요?",
+          "a": "네. 현재 iPhone과 Android에서 무료로 시작할 수 있습니다. iPhone판에는 배너 광고와 선택형 영구 광고 제거 구매가 있으며, 구독이나 게임 진행에 유리한 구매는 없습니다."
+        },
+        {
+          "q": "기기를 바꾸면 농장이 자동으로 이어지나요?",
+          "a": "로그인과 클라우드 동기화는 제공하지 않습니다. 기기를 바꾸거나 기록을 초기화하기 전 설정에서 기록을 내보내 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "StockPets",
+      "tagline": "This life, a little farm of your own.",
+      "description": "Return to 1996, care for pixel companions, and grow a farm shaped by historical US stock prices.",
+      "intro": "A small farm, a new friend, and a few hazy memories of the future. Plant a familiar company’s seed, harvest virtual coins, and turn a calendar page when you are ready.",
+      "genre": "Pets · Farming · Virtual investing",
+      "status": "Available for iPhone and Android",
+      "purchase": "Free to start. The iPhone version includes bottom banner ads and an optional one-time purchase to remove them permanently. Check each store for current platform-specific terms.",
+      "features": [
+        {
+          "title": "Market history, planted as little seeds",
+          "body": "Crops grow and wilt with historical month-end US company prices. Experience those changes using virtual coins, without real trades or deposits."
+        },
+        {
+          "title": "Eight friends to grow alongside",
+          "body": "Feed, play, and clean as you spend time with your companion. Care and harvest experiences leave a mark on your pet’s growth and memories."
+        },
+        {
+          "title": "One calendar page, at your own pace",
+          "body": "The first 12 months are unrestricted. Afterward, a calendar page charges every eight hours, up to three. Your journey is saved on your device."
+        }
+      ],
+      "facts": [
+        {
+          "label": "A new beginning",
+          "value": "January 1996"
+        },
+        {
+          "label": "Grow together",
+          "value": "8 pixel companions"
+        },
+        {
+          "label": "iPhone languages",
+          "value": "17 languages"
+        },
+        {
+          "label": "Currency",
+          "value": "Virtual coins only"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/products/stockpets/home.webp",
+          "caption": "Feed, play, and clean as you care for your friend at home."
+        },
+        {
+          "src": "/products/stockpets/field.webp",
+          "caption": "A little farm that changes with historical prices."
+        },
+        {
+          "src": "/products/stockpets/dex.webp",
+          "caption": "Time together leaves its mark on your companion."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does the game trade real stocks?",
+          "a": "There are no real trades or brokerage connections. Game coins cannot be exchanged for cash or prizes. Historical prices do not reproduce real investment returns or guarantee future results."
+        },
+        {
+          "q": "Is it free to start?",
+          "a": "Yes, it is currently free to start on iPhone and Android. The iPhone version includes banner ads and optional permanent ad removal, without a subscription or gameplay advantage."
+        },
+        {
+          "q": "Does my farm automatically move to a new device?",
+          "a": "There is no login or cloud sync. Export your record in Settings before resetting or changing your device."
+        }
+      ]
+    }
+  }
+}

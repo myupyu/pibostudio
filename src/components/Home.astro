@@ -2,9 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Worlds from './Worlds.astro';
 import Pibo from './Pibo.astro';
+import ProductCard from './ProductCard.astro';
+import PostCard from './PostCard.astro';
+import {getProducts,getArticles,urlFor} from '../lib/content';
 import { copy, contactEmail, type Locale } from '../lib/site';
 const { lang = 'en' } = Astro.props as { lang?: Locale };
 const t = copy[lang];
+const products=await getProducts();
+const posts=(await getArticles('blog',lang)).slice(0,3);
 ---
 <Layout lang={lang}>
   <main id="main">
@@ -23,15 +28,13 @@ const t = copy[lang];
     <div id="games" aria-hidden="true"></div>
     <section class="products-section wrap section" id="products" aria-labelledby="products-title">
       <div class="section-head reveal"><div><p class="section-label">{t.productsLabel}</p><h2 id="products-title">{t.productsTitle}</h2></div><p class="section-intro">{t.productsIntro}</p></div>
-      <div class="product-empty reveal" data-tilt>
-        <div class="empty-art" aria-hidden="true"><div class="empty-orbit"></div><div class="empty-patch"></div><Pibo class="empty-pibo"/><span class="empty-mini-star">✳</span><span class="empty-caption">{t.emptyNote}</span></div>
-        <div class="empty-copy"><span class="pill"><span></span>{t.soon}</span><h3>{t.emptyTitle.split('\n').map(line => <span>{line}</span>)}</h3><p>{t.emptyBody}</p><div class="empty-doodle" aria-hidden="true"><svg viewBox="0 0 80 30" fill="none"><path d="M2 17C28-1 44 34 69 10m-10-4 12 3-4 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>good things ahead</div></div>
-      </div>
+      <div class="product-grid reveal">{products.map(product=><ProductCard product={product} lang={lang}/>)}</div>
+      <a class="text-link section-more" href={urlFor(lang,'projects')}>{lang==='ko'?'게임 & 앱 전체 보기':'All games & apps'} <span aria-hidden="true">→</span></a>
     </section>
 
     <section class="story-section" id="studio" aria-labelledby="story-title"><div class="story-inner wrap"><div class="story-copy reveal"><p class="section-label">{t.storyLabel}</p><h2 id="story-title">{t.storyTitle[0]}<br/><span>{t.storyTitle[1]}</span></h2><p class="story-lead">{t.storyBody}</p><p class="story-detail">{t.storySub}</p></div><div class="story-art reveal" aria-hidden="true"><div class="story-frame"><span class="frame-corner">+</span><span class="frame-number">A LITTLE BIT OF PIBO</span><Pibo variant="lilac" class="story-pibo"/><span class="story-stamp">{t.storyStamp[0]}<br/>{t.storyStamp[1]}</span><svg class="story-star" viewBox="0 0 60 60"><path d="m30 0 6 19L53 7l-12 18 19 5-19 6 12 17-17-12-6 19-5-19L7 53l12-17L0 30l19-5L7 7l18 12Z" fill="currentColor"/></svg></div><span class="story-scribble">little by little, lovely things grow.</span></div></div></section>
 
-    <section class="journal-section wrap section" id="journal" aria-labelledby="journal-title"><div class="section-head reveal"><div><p class="section-label">{t.journalLabel}</p><h2 id="journal-title">{t.journalTitle}</h2></div><p class="section-intro">{t.journalIntro}</p></div><div class="journal-empty reveal"><div class="journal-illustration" aria-hidden="true"><div class="paper paper-back"></div><div class="paper paper-front"><span class="paper-flower">✳</span><span class="paper-line"></span><span class="paper-line short"></span><span class="paper-date">HELLO, WORLD.</span><span class="paper-dot"></span></div></div><div class="journal-copy"><p class="section-label">{t.notesLabel}</p><h3>{t.notesTitle}</h3><p>{t.notesBody}</p><span class="journal-soon"><span></span>{t.notesSoon}</span></div><span class="journal-index" aria-hidden="true">01</span></div></section>
+    <section class="journal-section wrap section" id="journal" aria-labelledby="journal-title"><div class="section-head reveal"><div><p class="section-label">{t.journalLabel}</p><h2 id="journal-title">{t.journalTitle}</h2></div><p class="section-intro">{t.journalIntro}</p></div><div class="post-grid reveal">{posts.map(post=><PostCard post={post} product={products.find(p=>p.id===(post.data.product??post.data.game))}/>)}</div><a class="text-link section-more" href={urlFor(lang,'blog')}>{lang==='ko'?'저널 전체 보기':'All journal stories'} <span aria-hidden="true">→</span></a></section>
 
     <section class="contact-section wrap reveal" id="contact" aria-labelledby="contact-title"><div><p class="section-label">{t.ctaLabel}</p><h2 id="contact-title">{t.ctaTitle}</h2><p>{t.ctaBody}</p></div><a class="contact-circle" href={`mailto:${contactEmail}`} aria-label={contactEmail}><span aria-hidden="true">↗</span></a><div class="contact-spark" aria-hidden="true">✳</div></section>
   </main>

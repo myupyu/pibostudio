@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';import ProductPage from '../components/ProductPage.astro';import CollectionPage from '../components/CollectionPage.astro';import ArticlePage from '../components/ArticlePage.astro';
+import {routes,alternateRoutes,metadata,absolute,type Route} from '../lib/content';
+export async function getStaticPaths(){const all=await routes();return all.map(route=>({params:{path:route.path.replace(/^\/|\/$/g,'')},props:{route,alternates:alternateRoutes(route,all)}}));}
+const {route,alternates}=Astro.props as {route:Route,alternates:{lang:'en'|'ko',path:string}[]};const meta=metadata(route);const p=route.product;const image=p?.data.socialImage??'/favicon.svg';
+let structured:Record<string,unknown>|undefined;
+if(route.view==='product'&&p){structured={'@context':'https://schema.org','@type':p.data.kind==='game'?'VideoGame':'SoftwareApplication',name:p.data.copy[route.lang].name,description:meta.description,url:absolute(route.path),image:absolute(image),applicationCategory:p.data.kind==='game'?'GameApplication':'LifestyleApplication',operatingSystem:p.data.platforms.map(s=>s==='iPhone'?'iOS':s).join(', '),publisher:{'@type':'Organization',name:'Pibo Studio',url:'https://pibostudio.com'},...(p.data.stores.length?{sameAs:p.data.stores.map(s=>s.url)}:{})};}
+if(route.entry&&route.entry.collection!=='policies'){const post=route.entry;structured={'@context':'https://schema.org','@type':post.collection==='blog'?'BlogPosting':'Article',headline:post.data.title,description:post.data.description,datePublished:post.data.date,dateModified:post.data.updated??post.data.date,inLanguage:route.lang,mainEntityOfPage:absolute(route.path),image:absolute(image),author:{'@type':'Organization',name:'Pibo Studio'},publisher:{'@type':'Organization',name:'Pibo Studio',url:'https://pibostudio.com'}};}
+---
+<Layout lang={route.lang} title={meta.title} description={meta.description} alternates={alternates} image={image} structured={structured}>
+{route.view==='product'&&p?<ProductPage product={p} lang={route.lang}/>:route.view==='article'?<ArticlePage route={route}/>:<CollectionPage route={route}/>}
+</Layout>

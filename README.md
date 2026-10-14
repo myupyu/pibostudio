@@ -1,44 +1,55 @@
 # Pibo Studio
 
-Official website for Pibo Studio, the umbrella brand for all our apps and games, operated by GATEPOP Inc. Product presentation belongs on Pibo Studio; the GATEPOP corporate website will not host an app catalogue.
+Website for Pibo Studio, the games and apps brand operated by GATEPOP Inc. English `/`, Korean `/ko/`. Astro 7.3.8, static HTML, native TypeScript/CSS. Node >=22.12; checked with Node 24.20.0. Site check uses Python 3 standard library.
 
-- Repository: https://github.com/myupyu/pibostudio
-- Production domain: https://pibostudio.com (not deployed by this project yet)
-- Local project: `/Users/danpro/Documents/GitHub/pibostudio`
-- Framework: Astro 7.3.8, static output, native CSS and TypeScript.
-- Required Node: >=22.12.0; preview verified with Node 24.20.0.
+## Product and blog integration · 2026-10-15
 
-## Current milestone: homepage design review
+The user requested Midnight Bunsik’s site/blog and a matching StockPets section inside this repository. Both now use shared product, journal, guide and support layouts. The original homepage design/mascot remains. This request authorizes these product pages; public deployment and broader site work remain separate.
 
-English `/` and Korean `/ko/` homepage previews are implemented. The user explicitly requested design confirmation before the remaining pages are implemented or the site is deployed. The homepage design preview is versioned in Git. Production deployment remains pending design approval and the remaining site implementation.
+| Product | English | Korean |
+|---|---|---|
+| Midnight Bunsik | `/midnightbunsik/` | `/ko/midnightbunsik/` |
+| StockPets | `/stockpets/` | `/ko/stockpets/` |
 
-The homepage includes original SVG worlds and the Pibo mascot, responsive navigation, a pointer/touch particle canvas with a mobile automatic animation, theme persistence, reduced-motion handling, scroll reveals, and a small tilt effect on the empty product card. No product entries or blog posts have been added to this website yet. Legal footer labels are placeholders until their pages are implemented; they are intentionally plain text in this preview. Metadata currently includes `noindex, nofollow` for the preview milestone.
+Append `blog/`, `guides/`, or `support/` for each section. The homepage shows both games and recent stories. `/projects/`, `/games/`, `/apps/` and `/blog/` collect real entries automatically. No non-game app is invented for the empty apps category.
+
+Midnight Bunsik has three Korean/English introductory articles, two play/save guides and product privacy/support pages. Its status is **iPhone release in preparation**: no public download link or unannounced release/price claim. It uses original game pixel art and actual Release simulator screenshots.
+
+StockPets’ five existing Korean/English posts and ten guides per language have been brought into PIBO’s format, retaining original-source links. Its existing standalone website is preserved and linked. The verified App Store and Google Play listings are linked directly. Copied obsolete copy was corrected for the current iPhone version: 17 languages, bottom banner ads, optional one-time permanent ad removal. The original StockPets repositories were not changed.
+
+## Run and check
 
 ```sh
 npm ci
 npm run dev
 npm run build
-npm run preview -- --host 127.0.0.1 --port 4321
+npm run check:site
+npm run preview -- --host 127.0.0.1 --port 4325
 ```
 
-## Source map
+Astro 7 preview runs in the background; `npx astro preview stop` stops it. See `docs/PRODUCT-INTEGRATION-2026-10-15.md` for actual verification and remaining publication conditions.
 
-- `src/components/Home.astro`: homepage sections.
-- `src/components/Worlds.astro`: original hero illustration.
-- `src/components/Pibo.astro`: reusable original mascot.
-- `src/layouts/Layout.astro`: header, footer, document metadata.
-- `src/lib/site.ts`: locale configuration and English/Korean copy.
-- `src/styles/global.css`: responsive layout, themes, reduced motion.
-- `src/scripts/effects.ts`: particle canvas, menu, theme and subtle interactions.
-- `AGENT.md`: project rules, approved scope, future routing and content conventions.
+## Content and source map
 
-## Remaining work after design approval
+- `src/content.config.ts`: product/blog/guide/policy schemas and excluded `_` examples.
+- `src/content/products/`: product data with both languages, verified store links, gallery and FAQ.
+- `src/content/blog/`, `guides/`, `policies/`: localized Markdown. Translation pairs use `key`, even when slugs differ.
+- `src/lib/content.ts`: automatic routes, matching language switches, metadata.
+- `src/components/ProductPage.astro`, `CollectionPage.astro`, `ArticlePage.astro`: shared screens.
+- `src/components/ProductArt.astro`: food/pet illustration selectors and generic Pibo fallback.
+- `src/styles/products.css`: responsive light/dark product and article styling.
+- `public/products/{slug}/`: original artwork and real screenshots; no game executables.
+- `src/pages/rss.xml.ts`, `ko/rss.xml.ts`, `sitemap.xml.ts`, `robots.txt.ts`, `llms.txt.ts`: generated discovery files.
+- `ADD-GAME.md`, `ADD-APP.md`, `ADD-POST.md`: expansion workflow.
+- `docs/ASSETS.md`, `asset-provenance.json`: source and reuse record.
+- `docs/README-before-product-integration.md`: previous milestone preserved.
 
-1. A shared product Content Collection with kind `game` or `app`, automatic detail routes, image folders, excluded example data, ADD-GAME.md and ADD-APP.md. A combined /projects/ list with category filters, plus /games/ and /apps/ lists.
-2. Studio and per-product blog routes, frontmatter schema, ADD-POST.md. Use VideoGame structured data for games and SoftwareApplication for other apps.
-3. English/Korean about, contact, support, privacy, terms and mascot 404 pages.
-4. Full metadata, social images, JSON-LD, hreflang, sitemap.xml, robots.txt, RSS and llms.txt.
-5. Full-route link checks, accessibility/performance validation, final screenshots.
-6. Connect Cloudflare Pages Git integration for automatic main-branch deployments, custom domains, www redirect, and production verification.
+## Publication remains pending
 
-The only public contact address is support@pibostudio.com. Cloudflare Email Routing has an active forwarding rule for this address. Keep its destination inbox out of public site content. End-to-end delivery has not yet been tested. No newsletter provider has been selected; the CTA opens an email.
+The build retains `noindex, nofollow` and robots `Disallow: /` for local review. Source legal pages carry non-rendered draft comments. No Git push, Cloudflare deployment, DNS change or public publication was performed. The domain did not resolve during this task’s browser check. To publish: approve the screens and policy text, authorize deployment, connect/verify hosting and DNS, then change indexing guards and verify live links. About/contact standalone pages and a dedicated 404 can be added in a separately authorized broader site pass; homepage studio/contact sections already work.
+
+Public contact is centralized as `support@pibostudio.com`. Mail delivery has not been newly tested; a mailto link is not proof of receiving messages. No account, newsletter, payment or analytics service was added to this website.
+
+## Public deployment authorized · 2026-10-15
+
+The owner approved publication of the prepared homepage, both product sections and policies, and connection of the existing pibostudio.com domain. This supersedes the earlier publication hold above. Public builds use index/follow and an open robots policy. Midnight Bunsik is free with optional banner removal (Korean base price ₩4,900); its app download remains in preparation. See docs/PUBLICATION-2026-10-15.md for deployment evidence and current external conditions.
