@@ -50,3 +50,5 @@
 - Use the existing Cloudflare account and free static Pages hosting. Preserve other projects and mail DNS records. No domain purchase, paid plan, account security change or app store submission is authorized by this approval.
 
 - The owner also explicitly approved committing/pushing the prepared site sources and documentation to myupyu/pibostudio main for automatic deployment, and adding www.pibostudio.com to the same site.
+
+- The owner explicitly approved detaching only the old pibostudio.com Pages binding and immediately attaching it to the validated Git project pibostudio-web. This was completed; both apex and www are Active with SSL. Preserve the old project and all mail DNS.

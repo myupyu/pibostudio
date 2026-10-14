@@ -53,3 +53,7 @@ Public contact is centralized as `support@pibostudio.com`. Mail delivery has not
 ## Public deployment authorized · 2026-10-15
 
 The owner approved publication of the prepared homepage, both product sections and policies, and connection of the existing pibostudio.com domain. This supersedes the earlier publication hold above. Public builds use index/follow and an open robots policy. Midnight Bunsik is free with optional banner removal (Korean base price ₩4,900); its app download remains in preparation. See docs/PUBLICATION-2026-10-15.md for deployment evidence and current external conditions.
+
+## Live Git deployment verified · 2026-10-15
+
+The prepared homepage, product sections, journals and policies are now public at https://pibostudio.com/ and https://www.pibostudio.com/. Both domains are Active with SSL on the Git-connected Cloudflare Pages project `pibostudio-web` (myupyu/pibostudio, main). The earlier direct-upload project and all mail DNS records are preserved. This supersedes the historical pending-publication section. Support mailbox delivery and Midnight Bunsik app release remain unverified. See docs/PUBLICATION-2026-10-15.md.
