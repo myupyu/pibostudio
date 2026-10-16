@@ -1,0 +1,112 @@
+{
+  "slug": "tapseoul",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/tapseoul/icon.png",
+  "socialImage": "/products/tapseoul/social.png",
+  "platforms": [
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 10,
+  "stores": [
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=app.tapseoul.mobile"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://tapseoul.com/",
+    "en": "https://tapseoul.com/?lang=en"
+  },
+  "copy": {
+    "ko": {
+      "name": "TapSeoul",
+      "tagline": "내 카드, 나만의 한국 지도.",
+      "description": "지원되는 선불 티머니 카드의 잔액을 읽고, 다녀온 한국의 지역을 나만의 지도에 남기는 여행 앱.",
+      "intro": "지원되는 선불 티머니 카드의 잔액을 읽고, 다녀온 한국의 지역을 나만의 지도에 남기는 여행 앱.",
+      "genre": "한국 여행 · 교통카드 · 지도",
+      "status": "Android 출시 · iPhone 준비 중",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "교통카드 잔액 확인",
+          "body": "지원되는 NFC 휴대폰으로 실물 선불 티머니 카드를 읽어요. 충전·결제 기능은 없어요."
+        },
+        {
+          "title": "다녀온 곳을 내 지도에",
+          "body": "방문한 지역을 표시하고 지도 이미지를 나눌 수 있어요."
+        },
+        {
+          "title": "기록은 내 휴대폰에",
+          "body": "계정 없이 카드와 방문 기록을 기기에 보관해요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "tapseoul.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. iPhone 앱은 준비 중이에요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "TapSeoul",
+      "tagline": "Your cards. Your Korea.",
+      "description": "Read supported prepaid T-money cards and fill a personal map with places you have visited in Korea.",
+      "intro": "Read supported prepaid T-money cards and fill a personal map with places you have visited in Korea.",
+      "genre": "Korea travel · Transit cards · Maps",
+      "status": "Available for Android · iPhone in preparation",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "Read a transit-card balance",
+          "body": "Read a supported physical prepaid T-money card using a compatible NFC phone; this is not a payment or top-up service."
+        },
+        {
+          "title": "Make the map your own",
+          "body": "Mark visited areas and share a map image."
+        },
+        {
+          "title": "Keep your records nearby",
+          "body": "Card and visit records stay on your device without an account."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "Android"
+        },
+        {
+          "label": "Official website",
+          "value": "tapseoul.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. The iPhone version is in preparation. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

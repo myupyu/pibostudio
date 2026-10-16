@@ -1,0 +1,117 @@
+{
+  "slug": "sihyonote",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/sihyonote/icon.png",
+  "socialImage": "/products/sihyonote/social.png",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 8,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/kr/app/id6820089602"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=me.sihyonote.app"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://sihyonote.com/",
+    "en": "https://sihyonote.com/"
+  },
+  "copy": {
+    "ko": {
+      "name": "시효노트",
+      "tagline": "빌려준 돈과 기한을 함께.",
+      "description": "빌려준 돈, 받은 돈과 기한 알림을 한곳에서 관리하고, 웹 계산기와 안내로 필요한 정보를 찾아보는 앱.",
+      "intro": "빌려준 돈, 받은 돈과 기한 알림을 한곳에서 관리하고, 웹 계산기와 안내로 필요한 정보를 찾아보는 앱.",
+      "genre": "돈 · 대여 기록 · 기한",
+      "status": "iPhone · Android 출시",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "여러 대여 내역 관리",
+          "body": "누구에게 빌려주고 얼마나 받았는지 기록해요."
+        },
+        {
+          "title": "놓치기 쉬운 기한",
+          "body": "기한 알림을 설정하고 기록과 함께 살펴봐요."
+        },
+        {
+          "title": "계산과 안내 연결",
+          "body": "공식 사이트에서 시효·지연이자 계산 기준과 출처를 확인해요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "sihyonote.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "Sihyonote",
+      "tagline": "Keep loans and deadlines together.",
+      "description": "Keep records of money lent and received with deadline reminders, alongside web calculators and practical information.",
+      "intro": "Keep records of money lent and received with deadline reminders, alongside web calculators and practical information.",
+      "genre": "Money · Loan records · Deadlines",
+      "status": "Available for iPhone and Android",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "Keep lending records",
+          "body": "Record loans and repayments in one place."
+        },
+        {
+          "title": "Keep dates in view",
+          "body": "Set deadline reminders alongside your records."
+        },
+        {
+          "title": "Understand the calculations",
+          "body": "Find limitation-period and late-interest calculators with source information on the official site."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "Official website",
+          "value": "sihyonote.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

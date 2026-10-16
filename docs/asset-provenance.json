@@ -283,5 +283,105 @@
     "path": "products/midnightbunsik/result.jpg",
     "source": "/Users/danpro/Documents/Codex/2026-10-14/users-danpro-documents-github-midnightbunsik-iphone/outputs/store/screenshots/37-release-first-result.jpeg",
     "sha256": "1618f222b93af544b07b700c183276f0483c81a0f12dde93bd14579b2275557a"
+  },
+  {
+    "path": "products/5htrip/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/5htrip-web/public/apple-touch-icon.png",
+    "sha256": "d09de53290b0df4fd75210e561425308f19925b91b22dca43a4576c23117236f"
+  },
+  {
+    "path": "products/5htrip/social.png",
+    "source": "/Users/danpro/Documents/GitHub/5htrip-web/public/preview-og.png",
+    "sha256": "354a47e2fea9b8c37e9b0b1ba05403fdf2ac0fdc4b0b4e246e2db3be002d1cef"
+  },
+  {
+    "path": "products/chisarang/icon.svg",
+    "source": "/Users/danpro/Documents/GitHub/chisarang-web/public/favicon.svg",
+    "sha256": "ce2f7d3eb615f2214866132dab1dadd1ce8b2e04eeaa1389224add695333ae1a"
+  },
+  {
+    "path": "products/chisarang/social.png",
+    "source": "/Users/danpro/Documents/GitHub/chisarang-web/public/og.png",
+    "sha256": "e12f8b62ffefd50d7fdfad244bd2acb5c575d4ec218041cf1a4fbf5bb6227ad5"
+  },
+  {
+    "path": "products/dearsum/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/dearsum-web/public/apple-touch-icon.png",
+    "sha256": "fbc73d9b42c4f6ee7b31651443b6dcdcf2dff145fe21ac8c5f03c9bab977f6bf"
+  },
+  {
+    "path": "products/dearsum/social.png",
+    "source": "/Users/danpro/Documents/GitHub/dearsum-web/public/og.png",
+    "sha256": "3e2925e4002565c94535759949dbf29b5e7e1b9d2b755a52a2cac9722862b325"
+  },
+  {
+    "path": "products/donnok/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/donnok-web/public/icon-512.png",
+    "sha256": "e27e69989ee77858f5add52a1bcdadce599102efd800d9a50a5071517665661a"
+  },
+  {
+    "path": "products/donnok/social.png",
+    "source": "/Users/danpro/Documents/GitHub/donnok-web/public/og-image.png",
+    "sha256": "8f7a42cb7d471e4561f15b9d48d260afb36b41193e09a7c449bdf54ffd647cb6"
+  },
+  {
+    "path": "products/hijisoo/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/hijisoo-web/public/apple-touch-icon.png",
+    "sha256": "c3d2264100b8f2c566ec76d231bd32bc3dbd4f58b5b3e272d607b88b1751a0b5"
+  },
+  {
+    "path": "products/hijisoo/social.png",
+    "source": "/Users/danpro/Documents/GitHub/hijisoo-web/public/og-image.png",
+    "sha256": "e7aa57a61f8d02e4775cb61113ae9adcfc1f253bd860cf6e2c769f48280128e2"
+  },
+  {
+    "path": "products/majunglog/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/majunglog-web/public/apple-touch-icon.png",
+    "sha256": "33c1b2a586c3046a2d7399f0fd36b70a8f9cc46e5320a44f4c0365a2ba6358c3"
+  },
+  {
+    "path": "products/majunglog/social.png",
+    "source": "/Users/danpro/Documents/GitHub/majunglog-web/public/og.png",
+    "sha256": "8bb4ac01107706d79301b109494dfbe77ffd60011671c408ad5fa69ddb6c8519"
+  },
+  {
+    "path": "products/nodamnodam/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/nodamnodam-web/public/apple-touch-icon.png",
+    "sha256": "99923486d796171b852be9d7387c95d376a4963494cfd62e5f0da4c62a3618c4"
+  },
+  {
+    "path": "products/nodamnodam/social.png",
+    "source": "/Users/danpro/Documents/GitHub/nodamnodam-web/public/apple-touch-icon.png",
+    "sha256": "99923486d796171b852be9d7387c95d376a4963494cfd62e5f0da4c62a3618c4"
+  },
+  {
+    "path": "products/restep/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/restep-web/public/apple-touch-icon.png",
+    "sha256": "78b3ef152494840d5f15d0282c862aad5d6787731f88d85fd724a76d2afbd0ac"
+  },
+  {
+    "path": "products/restep/social.png",
+    "source": "/Users/danpro/Documents/GitHub/restep-web/public/og.png",
+    "sha256": "903a2539d2d4b8bd75c269535ff469143537902be9bc5e38b12e6f30624de70a"
+  },
+  {
+    "path": "products/sihyonote/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/sihyonote-web/public/apple-touch-icon.png",
+    "sha256": "7ed679530c0f96bb59cf46ba042a911e19d0403c1c09fe0c06e8d2a899aeb5dc"
+  },
+  {
+    "path": "products/sihyonote/social.png",
+    "source": "/Users/danpro/Documents/GitHub/sihyonote-web/public/og.png",
+    "sha256": "de464d2e7f7eaa4b141c82627a0771380594b6d31d966d1a901fde30835d6824"
+  },
+  {
+    "path": "products/tapseoul/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/tapseoul-web/public/brand/icon.png",
+    "sha256": "a1d805d111fd830ac83d0eeb22c89b333b0019214f882beb0a1195378635d4c7"
+  },
+  {
+    "path": "products/tapseoul/social.png",
+    "source": "/Users/danpro/Documents/GitHub/tapseoul-web/public/brand/icon.png",
+    "sha256": "a1d805d111fd830ac83d0eeb22c89b333b0019214f882beb0a1195378635d4c7"
   }
 ]

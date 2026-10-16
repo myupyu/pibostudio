@@ -1,0 +1,117 @@
+{
+  "slug": "hijisoo",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/hijisoo/icon.png",
+  "socialImage": "/products/hijisoo/social.png",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 9,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/kr/app/id6817196866"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.hijisoo.app"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://hijisoo.com/?lang=ko",
+    "en": "https://hijisoo.com/"
+  },
+  "copy": {
+    "ko": {
+      "name": "Hi Jisoo",
+      "tagline": "한국어로 나누는 평범한 하루.",
+      "description": "서로 다른 성격의 가상 AI 친구 다섯 명과 한국어로 일상을 나누는 성인용 대화 앱.",
+      "intro": "서로 다른 성격의 가상 AI 친구 다섯 명과 한국어로 일상을 나누는 성인용 대화 앱.",
+      "genre": "AI 대화 · 한국어 · 18세 이상",
+      "status": "iPhone · Android 출시",
+      "purchase": "18세 이상을 위한 AI 대화 앱이에요. 답변에는 별을 사용하며 추가 구매 조건은 스토어와 앱에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "다섯 가지 대화의 결",
+          "body": "친구마다 다른 성격과 말투로 일상의 이야기를 나눠요."
+        },
+        {
+          "title": "기억을 직접 살펴보기",
+          "body": "친구가 기억하는 내용을 확인하고 수정하거나 지울 수 있어요."
+        },
+        {
+          "title": "대화 전에 확인",
+          "body": "메시지와 일부 맥락이 답변 생성을 위해 AI 제공업체로 전송돼요. 개인정보 안내와 동의 내용을 확인해 주세요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "hijisoo.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "Hi Jisoo",
+      "tagline": "Everyday chats in Korean.",
+      "description": "Explore everyday Korean conversations with five fictional adult AI friends, each with a different personality.",
+      "intro": "Explore everyday Korean conversations with five fictional adult AI friends, each with a different personality.",
+      "genre": "AI conversations · Korean · Adults 18+",
+      "status": "Available for iPhone and Android",
+      "purchase": "An AI conversation app for adults 18+. Replies use stars; check the app and store for additional purchases.",
+      "features": [
+        {
+          "title": "Five different personalities",
+          "body": "Explore different voices and conversational styles."
+        },
+        {
+          "title": "Review what is remembered",
+          "body": "View, edit or delete a friend’s memories."
+        },
+        {
+          "title": "Understand the data flow",
+          "body": "Messages and relevant context are sent to an AI provider to generate replies. Review the privacy and consent information before chatting."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "Official website",
+          "value": "hijisoo.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

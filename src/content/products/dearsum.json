@@ -1,0 +1,117 @@
+{
+  "slug": "dearsum",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/dearsum/icon.png",
+  "socialImage": "/products/dearsum/social.png",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 12,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/kr/app/id6818501091"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.dearsum.app"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://dearsum.com/",
+    "en": "https://dearsum.com/en/"
+  },
+  "copy": {
+    "ko": {
+      "name": "디어섬 · Dearsum",
+      "tagline": "이 사람한테 얼마 썼지?",
+      "description": "식사, 선물, 기념일과 경조사 비용을 사람별로 기록하고 합계와 흐름을 살펴보는 나만의 지출 장부.",
+      "intro": "식사, 선물, 기념일과 경조사 비용을 사람별로 기록하고 합계와 흐름을 살펴보는 나만의 지출 장부.",
+      "genre": "돈 · 사람별 기록 · 가계부",
+      "status": "iPhone · Android 출시",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "사람별로 간단하게",
+          "body": "금액, 사람, 종류를 고르고 함께한 비용을 나눠 기록해요."
+        },
+        {
+          "title": "비밀번호마다 다른 장부",
+          "body": "선택한 두 번째 비밀번호로 별도의 암호화 장부를 열 수 있어요."
+        },
+        {
+          "title": "숫자로 남기는 한 해",
+          "body": "사람을 평가하지 않고 합계와 흐름을 보여 줘요. 이름 없는 결산 카드도 만들 수 있어요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "dearsum.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "Dearsum",
+      "tagline": "How much have I spent on them?",
+      "description": "A private ledger for recording meals, gifts, anniversaries and special-occasion spending by person.",
+      "intro": "A private ledger for recording meals, gifts, anniversaries and special-occasion spending by person.",
+      "genre": "Money · People · Personal ledger",
+      "status": "Available for iPhone and Android",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "Record by person",
+          "body": "Choose an amount, people and category, and split shared expenses."
+        },
+        {
+          "title": "Two passwords, two ledgers",
+          "body": "An optional second password opens a separate encrypted ledger."
+        },
+        {
+          "title": "A year in numbers",
+          "body": "Review amounts and patterns without rating people, and create a summary card without names."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "Official website",
+          "value": "dearsum.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

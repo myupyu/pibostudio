@@ -1,0 +1,117 @@
+{
+  "slug": "nodamnodam",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/nodamnodam/icon.png",
+  "socialImage": "/products/nodamnodam/social.png",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 5,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/kr/app/id6817191817"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.gatepop.nodamnodam"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://nodamnodam.com/",
+    "en": "https://nodamnodam.com/"
+  },
+  "copy": {
+    "ko": {
+      "name": "노담노담",
+      "tagline": "담배 냄새 없이 걷고 싶은 날.",
+      "description": "동네의 담존과 공공 흡연시설을 지도에서 살펴보고, 함께 정보를 보태는 간접흡연 회피 앱.",
+      "intro": "동네의 담존과 공공 흡연시설을 지도에서 살펴보고, 함께 정보를 보태는 간접흡연 회피 앱.",
+      "genre": "생활 · 동네 지도",
+      "status": "iPhone · Android 출시",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "동네 담존 지도",
+          "body": "내 주변이나 살펴보고 싶은 동네의 담존을 찾아봐요."
+        },
+        {
+          "title": "확인 상태 함께 보기",
+          "body": "제보와 확인 상태를 살펴보며 지도를 이용해요."
+        },
+        {
+          "title": "앱에서 가까워짐 알림",
+          "body": "회피 모드를 켜면 확인된 담존 가까이에서 알림을 받을 수 있어요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "nodamnodam.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "Nodamnodam",
+      "tagline": "A little more room to breathe.",
+      "description": "Explore neighborhood smoking spots and public smoking facilities on a map, and contribute local information.",
+      "intro": "Explore neighborhood smoking spots and public smoking facilities on a map, and contribute local information.",
+      "genre": "Everyday life · Neighborhood maps",
+      "status": "Available for iPhone and Android",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "A neighborhood map",
+          "body": "Explore smoking spots around you or in a neighborhood you choose."
+        },
+        {
+          "title": "See what is confirmed",
+          "body": "Use reports and confirmation status to understand the map."
+        },
+        {
+          "title": "Nearby alerts in the app",
+          "body": "Avoidance mode can alert you when you approach a confirmed spot."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "Official website",
+          "value": "nodamnodam.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

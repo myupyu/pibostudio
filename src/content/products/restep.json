@@ -1,0 +1,117 @@
+{
+  "slug": "restep",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/restep/icon.png",
+  "socialImage": "/products/restep/social.png",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 6,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/kr/app/id6817807536"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=me.restep.app"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://restep.me/",
+    "en": "https://restep.me/"
+  },
+  "copy": {
+    "ko": {
+      "name": "리스텝",
+      "tagline": "다시 걷는 매달의 기록.",
+      "description": "개인회생을 알아보는 때부터 변제금 납부, 서류 기한, 면책 준비까지 챙기는 동행 앱.",
+      "intro": "개인회생을 알아보는 때부터 변제금 납부, 서류 기한, 면책 준비까지 챙기는 동행 앱.",
+      "genre": "생활 · 변제 기록",
+      "status": "iPhone · Android 출시",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "매달 납부 체크",
+          "body": "변제금 납부와 다음 납부일을 챙겨요."
+        },
+        {
+          "title": "서류와 기한 한곳에",
+          "body": "법원 서류 기한과 준비할 서류를 함께 정리해요."
+        },
+        {
+          "title": "필요한 정보 찾아보기",
+          "body": "공식 사이트에서 제도 안내와 무료 상담 기관을 살펴봐요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "restep.me"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "ReStep",
+      "tagline": "One step, one month at a time.",
+      "description": "A companion for personal rehabilitation in Korea, from exploring options to payment records, document deadlines and discharge preparation.",
+      "intro": "A companion for personal rehabilitation in Korea, from exploring options to payment records, document deadlines and discharge preparation.",
+      "genre": "Everyday life · Repayment records",
+      "status": "Available for iPhone and Android",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "Monthly payment records",
+          "body": "Keep track of repayments and the next payment date."
+        },
+        {
+          "title": "Documents and deadlines",
+          "body": "Organize court-document deadlines and paperwork."
+        },
+        {
+          "title": "Find a place to start",
+          "body": "Explore general information and public counseling resources on the official site."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "Official website",
+          "value": "restep.me"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

@@ -57,3 +57,9 @@ The owner approved publication of the prepared homepage, both product sections a
 ## Live Git deployment verified · 2026-10-15
 
 The prepared homepage, product sections, journals and policies are now public at https://pibostudio.com/ and https://www.pibostudio.com/. Both domains are Active with SSL on the Git-connected Cloudflare Pages project `pibostudio-web` (myupyu/pibostudio, main). The earlier direct-upload project and all mail DNS records are preserved. This supersedes the historical pending-publication section. Support mailbox delivery and Midnight Bunsik app release remain unverified. See docs/PUBLICATION-2026-10-15.md.
+
+## App portfolio · 2026-10-16
+
+Added bilingual introductions for DONNOK, Majunglog, Nodamnodam, ReStep, Chisarang, Sihyonote, Hi Jisoo, TapSeoul, 5htrip and Dearsum. All appear on the homepage, /projects/ and /apps/, with separate introduction and official-site links. Product pages show verified store buttons and SoftwareApplication metadata. Original app icons are reused with provenance recorded in docs/asset-provenance.json.
+
+Public Apple/Google listings were checked on 2026-10-16: eight apps have iPhone and Android listings; TapSeoul and 5htrip have Android listings, with no public iPhone listing found in the Korean or US storefront. Region-specific availability can differ. No empty app journals or invented screenshots were added. See docs/APP-PORTFOLIO-2026-10-16.md.

@@ -1,0 +1,112 @@
+{
+  "slug": "5htrip",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/5htrip/icon.png",
+  "socialImage": "/products/5htrip/social.png",
+  "platforms": [
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 11,
+  "stores": [
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.ohaeng.trip"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://5htrip.com/",
+    "en": "https://5htrip.com/en/"
+  },
+  "copy": {
+    "ko": {
+      "name": "오행여행 · 5htrip",
+      "tagline": "한국 문화를 살펴보는 다섯 가지 관점.",
+      "description": "한국 사주의 명식과 오행을 배우고 문화 관찰과 여행 기록으로 이어 가는 앱. iPhone판은 한국 문화 패스포트를 준비하고 있어요.",
+      "intro": "한국 사주의 명식과 오행을 배우고 문화 관찰과 여행 기록으로 이어 가는 앱. iPhone판은 한국 문화 패스포트를 준비하고 있어요.",
+      "genre": "한국 문화 · 사주 학습 · 여행",
+      "status": "Android 출시 · iPhone 준비 중",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "명식과 용어 이해",
+          "body": "명식의 글자 뜻과 오행, 계산 근거를 차근차근 살펴봐요."
+        },
+        {
+          "title": "관찰하고 기록하기",
+          "body": "한국 전통문화와 여행에서 발견한 것을 기록해요. 플랫폼별 구성은 공식 사이트에서 확인해 주세요."
+        },
+        {
+          "title": "선택하는 심층 풀이",
+          "body": "AI 풀이는 선택형 유료 기능이에요. 전통 해석과 자기 관찰을 위한 참고 자료로 이용해요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "5htrip.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. iPhone 앱은 준비 중이에요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "Ohaeng · 5htrip",
+      "tagline": "Five perspectives on Korean culture.",
+      "description": "Explore Korean saju and the five elements through explanations, cultural observation and travel notes. A Korean culture passport is in preparation for iPhone.",
+      "intro": "Explore Korean saju and the five elements through explanations, cultural observation and travel notes. A Korean culture passport is in preparation for iPhone.",
+      "genre": "Korean culture · Saju learning · Travel",
+      "status": "Available for Android · iPhone in preparation",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "Understand the terms",
+          "body": "Explore chart symbols, five elements and calculation explanations."
+        },
+        {
+          "title": "Observe and reflect",
+          "body": "Record cultural and travel observations; see the official site for platform-specific experiences."
+        },
+        {
+          "title": "Optional deeper readings",
+          "body": "Optional paid AI readings offer traditional interpretations for reflection."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "Android"
+        },
+        {
+          "label": "Official website",
+          "value": "5htrip.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. The iPhone version is in preparation. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

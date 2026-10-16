@@ -4,7 +4,7 @@ import {productUrl,type Product} from '../lib/content';
 import type {Locale} from '../lib/site';
 const {product,lang}=Astro.props as {product:Product,lang:Locale};const t=product.data.copy[lang];
 ---
-<a class="product-card" href={productUrl(product,lang)}>
+<article class="product-card"><a class="product-card-main" href={productUrl(product,lang)}>
   <div aria-hidden="true"><ProductArt product={product} lang={lang}/></div>
   <div class="product-card-copy"><p class="card-status"><span class:list={['status-dot',product.data.status==='development'?'in-development':'']}></span>{t.status}</p><div class="card-title"><h3>{t.name}</h3><span aria-hidden="true">↗</span></div><p class="card-tagline">{t.tagline}</p><p class="card-description">{t.description}</p><span class="card-genre">{t.genre}</span></div>
-</a>
+</a><div class="product-card-links"><a href={productUrl(product,lang)} aria-label={`${t.name} ${lang==='ko'?'소개 보기':'introduction'}`}>{lang==='ko'?'소개 보기':(product.data.kind==='app'?'Explore the app':'Explore the game')} →</a>{product.data.officialSite&&<a href={product.data.officialSite[lang]} target="_blank" rel="noopener" aria-label={`${t.name} ${lang==='ko'?'공식 사이트':'official website'}`}>{lang==='ko'?'공식 사이트':'Official website'} ↗</a>}</div></article>

@@ -1,0 +1,117 @@
+{
+  "slug": "donnok",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/donnok/icon.png",
+  "socialImage": "/products/donnok/social.png",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 3,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/kr/app/id6810068158"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.donnok.app"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://donnok.com/",
+    "en": "https://donnok.com/en/"
+  },
+  "copy": {
+    "ko": {
+      "name": "돈녹 · DONNOK",
+      "tagline": "같은 돈, 달라지는 가치.",
+      "description": "모은 돈의 금액과 날짜를 기록하고, 물가에 따라 달라지는 추정 구매력을 전광판과 위젯으로 살펴보는 앱.",
+      "intro": "모은 돈의 금액과 날짜를 기록하고, 물가에 따라 달라지는 추정 구매력을 전광판과 위젯으로 살펴보는 앱.",
+      "genre": "돈 · 구매력 · 위젯",
+      "status": "iPhone · Android 출시",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "금액과 날짜만",
+          "body": "계좌 연결 없이 살펴볼 돈을 직접 기록해요."
+        },
+        {
+          "title": "내 취향의 전광판",
+          "body": "여러 전광판 테마로 돈의 변화를 살펴봐요."
+        },
+        {
+          "title": "물가로 보는 변화",
+          "body": "소비자물가지수를 기준으로 구매력의 변화를 추정해요. 실제 잔액이나 투자 수익과는 달라요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "donnok.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "DONNOK",
+      "tagline": "Same money. Changing value.",
+      "description": "Record an amount and a date, then follow its estimated purchasing power through a money display and widgets.",
+      "intro": "Record an amount and a date, then follow its estimated purchasing power through a money display and widgets.",
+      "genre": "Money · Purchasing power · Widgets",
+      "status": "Available for iPhone and Android",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "An amount and a date",
+          "body": "Record the money you want to follow without connecting a bank account."
+        },
+        {
+          "title": "A display of your own",
+          "body": "Explore different display themes as you follow changes over time."
+        },
+        {
+          "title": "A view through inflation",
+          "body": "CPI-based estimates describe purchasing power, rather than a bank balance or investment return."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "Official website",
+          "value": "donnok.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

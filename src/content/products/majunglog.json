@@ -1,0 +1,117 @@
+{
+  "slug": "majunglog",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/majunglog/icon.png",
+  "socialImage": "/products/majunglog/social.png",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 4,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/kr/app/id6818251953"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.majunglog.app"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://majunglog.com/",
+    "en": "https://majunglog.com/"
+  },
+  "copy": {
+    "ko": {
+      "name": "마중로그",
+      "tagline": "기다리는 날들을 한눈에.",
+      "description": "교정시설에 있는 가족을 기다리며 접견 일정, 남은 날, 편지와 영치금 기록을 차분하게 챙기는 앱.",
+      "intro": "교정시설에 있는 가족을 기다리며 접견 일정, 남은 날, 편지와 영치금 기록을 차분하게 챙기는 앱.",
+      "genre": "가족 · 일정 · 기록",
+      "status": "iPhone · Android 출시",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "만나는 날을 달력에",
+          "body": "접견과 편지 일정을 달력에 모아 살펴봐요."
+        },
+        {
+          "title": "잊지 않도록 기록",
+          "body": "나눈 이야기, 보낸 돈, 다음에 물어볼 말을 적어 둬요."
+        },
+        {
+          "title": "안내는 공식 사이트에서",
+          "body": "교정기관 찾기와 접견·영치금 안내를 확인해요. 일정과 규칙은 해당 기관에 다시 확인해 주세요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "majunglog.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "Majunglog",
+      "tagline": "Keep the days ahead in view.",
+      "description": "A quiet place to keep visiting dates, countdowns, letters and money-sent records while a family member is in a correctional facility.",
+      "intro": "A quiet place to keep visiting dates, countdowns, letters and money-sent records while a family member is in a correctional facility.",
+      "genre": "Family · Calendar · Records",
+      "status": "Available for iPhone and Android",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "Dates in one calendar",
+          "body": "Keep visits and letter-writing plans together."
+        },
+        {
+          "title": "Room for the details",
+          "body": "Note conversations, money sent and questions for your next visit."
+        },
+        {
+          "title": "Find practical information",
+          "body": "Explore facility information and visiting guides on the official site; confirm dates and rules with the institution."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "Official website",
+          "value": "majunglog.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}

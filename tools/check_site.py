@@ -65,10 +65,17 @@ for file in ('rss.xml','ko/rss.xml'):
   if urlsplit(link.text).path not in pages:errors.append(f'{file}: missing post')
 for path in pages:
  if '/_' in path or 'example-app' in path:errors.append(f'Published example: {path}')
-for slug in ('stockpets','midnightbunsik'):
- for prefix in ('/','/ko/'):
-  page=pages[prefix+slug+'/']
-  if not any(s.get('@type')=='VideoGame' for s in page.jsonld):errors.append(f'{prefix}{slug}: missing VideoGame schema')
+for source in (ROOT.parent/'src/content/products').glob('*.json'):
+ if source.stem.startswith('_'):continue
+ product=json.loads(source.read_text());slug=product['slug']
+ for prefix,lang in [('/','en'),('/ko/','ko')]:
+  page=pages[prefix+slug+'/'];kind='VideoGame' if product['kind']=='game' else 'SoftwareApplication'
+  if not any(s.get('@type')==kind for s in page.jsonld):errors.append(f'{prefix}{slug}: missing {kind} schema')
+  for store in product.get('stores',[]):
+   if store['url'] not in page.refs:errors.append(f'{prefix}{slug}: missing store link {store["label"]}')
+  official=product.get('officialSite',{}).get(lang)
+  if official and official not in page.refs:errors.append(f'{prefix}{slug}: missing official website')
+  if product['kind']=='app' and prefix+slug+'/' not in pages[prefix+'apps/'].refs:errors.append(f'{slug}: missing from apps collection')
 if errors:
  for e in errors:print(e)
  raise SystemExit(1)

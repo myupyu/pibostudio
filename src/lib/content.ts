@@ -16,7 +16,7 @@ export async function routes():Promise<Route[]> {
     const add=(route:Omit<Route,'path'|'lang'>,path:string)=>result.push({...route,lang,path:urlFor(lang,path)});
     add({view:'products'},'projects');add({view:'products',kind:'game'},'games');add({view:'products',kind:'app'},'apps');add({view:'blog'},'blog');
     for(const product of products){
-      add({view:'product',product},product.data.slug);add({view:'blog',product},`${product.data.slug}/blog`);
+      add({view:'product',product},product.data.slug);if((await getArticles('blog',lang,product.data.slug)).length)add({view:'blog',product},`${product.data.slug}/blog`);
       if((await getArticles('guides',lang,product.data.slug)).length)add({view:'guides',product},`${product.data.slug}/guides`);
     }
     for(const collection of ['blog','guides','policies'] as const){

@@ -1,0 +1,117 @@
+{
+  "slug": "chisarang",
+  "kind": "app",
+  "status": "released",
+  "icon": "/products/chisarang/icon.svg",
+  "socialImage": "/products/chisarang/social.png",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "accent": "studio",
+  "order": 7,
+  "stores": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/kr/app/id6818429094"
+    },
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.chisarang.app"
+    }
+  ],
+  "officialSite": {
+    "ko": "https://chisarang.com/",
+    "en": "https://chisarang.com/"
+  },
+  "copy": {
+    "ko": {
+      "name": "치사랑",
+      "tagline": "부모님 챙길 날, 대신 기억해요.",
+      "description": "부모님 건강검진, 연금 신청, 생신과 가족 행사를 연표와 알림으로 챙기는 앱.",
+      "intro": "부모님 건강검진, 연금 신청, 생신과 가족 행사를 연표와 알림으로 챙기는 앱.",
+      "genre": "가족 · 일정 · 돌봄 기록",
+      "status": "iPhone · Android 출시",
+      "purchase": "무료로 다운로드할 수 있어요. 앱 내 구매와 기기·지역별 이용 조건은 각 스토어에서 확인해 주세요.",
+      "features": [
+        {
+          "title": "부모님 연표",
+          "body": "부모님별로 앞으로 챙길 날을 모아 살펴봐요."
+        },
+        {
+          "title": "기록을 함께",
+          "body": "지병·입퇴원·선물·영양제 기록을 정리해요. 의료 판단은 하지 않아요."
+        },
+        {
+          "title": "공식 안내로 확인",
+          "body": "웹 계산기와 공공기관 출처로 신청 시기를 살펴봐요."
+        }
+      ],
+      "facts": [
+        {
+          "label": "플랫폼",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "공식 사이트",
+          "value": "chisarang.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "어디서 다운로드하나요?",
+          "a": "위의 공식 스토어 버튼에서 다운로드할 수 있어요. 기기와 스토어 계정 지역에 따라 이용 가능 여부가 달라질 수 있어요."
+        },
+        {
+          "q": "자세한 기능과 사용 안내는 어디에 있나요?",
+          "a": "공식 사이트에서 기능과 사용 안내, 개인정보 처리방침을 확인해 주세요."
+        }
+      ]
+    },
+    "en": {
+      "name": "Chisarang",
+      "tagline": "Remember the days that matter to your parents.",
+      "description": "Keep parents’ health-check dates, pension milestones, birthdays and family occasions in a timeline with reminders.",
+      "intro": "Keep parents’ health-check dates, pension milestones, birthdays and family occasions in a timeline with reminders.",
+      "genre": "Family · Reminders · Care records",
+      "status": "Available for iPhone and Android",
+      "purchase": "Free to download. Check each store for in-app purchases and device or regional availability.",
+      "features": [
+        {
+          "title": "A timeline for each parent",
+          "body": "Bring upcoming dates and milestones together."
+        },
+        {
+          "title": "Keep related records",
+          "body": "Organize care, hospital stays, gifts and supplies without medical diagnosis or treatment advice."
+        },
+        {
+          "title": "Check the original guidance",
+          "body": "Use web calculators and public-agency sources to explore application timing."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Platforms",
+          "value": "iPhone · Android"
+        },
+        {
+          "label": "Official website",
+          "value": "chisarang.com"
+        }
+      ],
+      "gallery": [],
+      "faq": [
+        {
+          "q": "Where can I download it?",
+          "a": "Use the official store buttons above. Availability depends on your device and store-account region."
+        },
+        {
+          "q": "Where can I find more details?",
+          "a": "Visit the official website for features, help and privacy information."
+        }
+      ]
+    }
+  }
+}
