@@ -39,6 +39,7 @@ const canonical = new URL(path, 'https://pibostudio.com');
     <script is:inline>
       try { const saved = localStorage.getItem('pibo-theme'); document.documentElement.dataset.theme = saved === 'dark' || saved === 'light' ? saved : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); } catch { document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
     </script>
+    <script is:inline src="/ga4.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">{t.skip}</a>
