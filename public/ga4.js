@@ -12,16 +12,13 @@
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
   let referrer = '';
   try { referrer = new URL(document.referrer).origin + '/'; } catch {}
-  const page = location.origin + location.pathname;
+  const page = 'https://pibostudio.com' + location.pathname.replace(/\/{2,}/g, '/');
   window.gtag('js', new Date());
   window.gtag('config', id, {
-    send_page_view: false, allow_google_signals: false,
+    // Use the config page view only; a separate event duplicates live collection.
+    send_page_view: true, allow_google_signals: false,
     allow_ad_personalization_signals: false,
     page_location: page, page_referrer: referrer
-  });
-  window.gtag('event', 'page_view', {
-    send_to: id, page_location: page,
-    page_referrer: referrer, page_title: document.title
   });
   if (!document.querySelector('script[src^="https://www.googletagmanager.com/gtag/js"]')) {
     const script = document.createElement('script');

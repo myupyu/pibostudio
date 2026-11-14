@@ -6,7 +6,7 @@ product: "stockpets"
 title: "StockPets(스톡펫츠)란? 실제 미국 주식 역사로 키우는 펫·농장 게임"
 description: "스톡펫츠는 1996년으로 돌아가 실제 미국 주가를 따라 자라는 씨앗과 펫을 키우는 도트 게임이에요. 규칙과 특징을 한 번에 정리했어요."
 date: "2026-10-09"
-updated: "2026-10-14"
+updated: "2026-11-14"
 art: {"label": "GROW TOGETHER", "sprites": ["pet_cat_adult_sparkle_happy"]}
 source: "https://stockpets.com/ko/guides/what-is-stockpets/"
 ---
@@ -76,7 +76,7 @@ source: "https://stockpets.com/ko/guides/what-is-stockpets/"
 - 실제 돈: 코인은 가상 화폐이고 현금·경품으로 바꿀 수 없어요. 그래서 도박도 아니에요.
 - 무료로 시작해 나만의 농장을 키울 수 있어요.
 - 로그인과 계정: 필요 없어요. 진행 상황은 내 기기에만 저장되고, 클라우드 동기화도 없어요.
-- 데이터 수집: 분석 도구도, 네트워크 서비스도 쓰지 않아요.
+- 기기 내 저장: 진행은 내 기기에 저장돼요. iPhone판의 광고와 스토어 구매·복원에는 인터넷 연결이 필요합니다. 외부 서비스의 정보 처리는 [개인정보처리방침](https://stockpets.com/ko/privacy/)에서 확인해 주세요.
 - 투자 조언: 과거 주가를 따라가는 게임일 뿐, 어떤 종목을 사라거나 팔라고 말하지 않아요.
 
 설정의 “내 기록 내보내기”로 내 기록을 꺼내 둘 수 있고, “처음부터 다시”로 언제든 새 여정을 시작할 수도 있어요.

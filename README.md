@@ -39,10 +39,13 @@ npm ci
 npm run dev
 npm run build
 npm run check:site
+npm run check:analytics
 npm run preview -- --host 127.0.0.1 --port 4325
 ```
 
 Astro 7 preview runs in the background; `npx astro preview stop` stops it. See `docs/PRODUCT-INTEGRATION-2026-10-15.md` for actual verification and remaining publication conditions.
+
+The analytics check runs after the build and verifies the loader's page-view configuration, privacy guards and the generated 404 opt-out. It does not replace checking actual Google collection requests in a browser. See [docs/AUDIT-FIXES-2026-11-14.md](docs/AUDIT-FIXES-2026-11-14.md) for the audit fixes and Cloudflare redirect configuration.
 
 ## Content and source map
 

@@ -18,13 +18,21 @@ systemTheme.addEventListener('change', event => {
 const menuButton = document.querySelector<HTMLButtonElement>('[data-menu-toggle]');
 const nav = document.querySelector<HTMLElement>('#main-nav');
 const closeMenu = () => { menuButton?.setAttribute('aria-expanded', 'false'); nav?.classList.remove('is-open'); };
-menuButton?.addEventListener('click', () => {
+menuButton?.addEventListener('click', event => {
   const expanded = menuButton.getAttribute('aria-expanded') !== 'true';
   menuButton.setAttribute('aria-expanded', String(expanded));
   nav?.classList.toggle('is-open', expanded);
+  // The navigation precedes the toggle in DOM order. Keyboard activation must
+  // enter the revealed links instead of skipping straight to the main content.
+  if (expanded && event.detail === 0) nav?.querySelector<HTMLAnchorElement>('a')?.focus();
 });
 nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
-document.addEventListener('keydown', event => { if (event.key === 'Escape') { closeMenu(); } });
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape' || menuButton?.getAttribute('aria-expanded') !== 'true') return;
+  const focusInMenu = nav?.contains(document.activeElement);
+  closeMenu();
+  if (focusInMenu) menuButton.focus();
+});
 
 if ('IntersectionObserver' in window) {
   const reveals = document.querySelectorAll<HTMLElement>('.reveal');

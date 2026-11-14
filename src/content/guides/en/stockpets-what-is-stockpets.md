@@ -103,7 +103,7 @@ The seeds are named after real US companies and follow their historical monthly 
 
 ### Do I need an account or internet connection for StockPets?
 
-No sign-in is needed. The game runs entirely on your device, with no network service, and your progress is saved locally.
+No sign-in is needed, and your progress is saved on your device without cloud sync. Ads in the iPhone version and store purchases or restoration require an internet connection. See the [privacy policy](https://stockpets.com/en/privacy/) for information about external services.
 
 ### Can my pet die in StockPets?
 
