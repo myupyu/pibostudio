@@ -5,6 +5,7 @@ lang: "ko"
 title: "마지막 한 끼를 차리는 작은 가게"
 description: "저승분식은 요리의 결과와 손님의 작별이 같은 식탁에 남는 이야기 게임입니다."
 date: "2026-10-14"
+updated: "2026-11-14"
 game: "midnightbunsik"
 art: {"label": "ONE LAST MEAL", "sprites": ["tteokbokki", "sikhye"]}
 ---
@@ -27,6 +28,6 @@ art: {"label": "ONE LAST MEAL", "sprites": ["tteokbokki", "sikhye"]}
 
 ## 아직 준비 중인 작은 가게
 
-저승분식은 현재 무료 다운로드와 배너 광고, 선택적인 일회성 광고 제거 구매가 있는 iPhone 게임으로 준비하고 있습니다. 한국어와 영어로 플레이할 수 있고, 광고 제거의 한국 기준 가격은 4,900원이며 모든 이야기는 무료입니다. 정식 출시일은 아직 정하지 않았습니다. 실제 기기에서 오래 머물러 보는 검토와 사람의 플레이 관찰을 이어갈 예정입니다.
+저승분식은 한국어와 영어로 즐길 수 있는 iPhone 게임으로 준비 중입니다. 본편과 후속 이야기는 무료로 제공하고, 배너 광고는 한국 기준 4,900원으로 한 번 결제해 제거할 수 있도록 준비하고 있습니다. 정식 출시일은 아직 공개되지 않았습니다.
 
-[일곱 가지 음식의 손길](/ko/midnightbunsik/blog/seven-dishes/)과 [식탁에 남는 작은 기억](/ko/midnightbunsik/blog/a-table-that-remembers/)도 함께 읽어 보세요.
+[아홉 가지 분식을 차리는 손길](/ko/midnightbunsik/blog/seven-dishes/)과 [식탁에 남는 작은 기억](/ko/midnightbunsik/blog/a-table-that-remembers/)도 함께 읽어 보세요.

@@ -2,14 +2,17 @@
 key: "seven-dishes"
 slug: "seven-dishes"
 lang: "en"
-title: "Seven dishes, seven little gestures"
-description: "From tteokbokki to sikhye, preparation and a finishing touch shape the meal."
+title: "Nine dishes, each made a different way"
+description: "Roll gimbap, crisp mandu in the pan, and toss bibim noodles. See what goes into a meal at Midnight Bunsik."
 date: "2026-10-14"
+updated: "2026-11-14"
 product: "midnightbunsik"
-art: {"label": "SEVEN LITTLE GESTURES", "sprites": ["gimbap", "hotteok", "sikhye"]}
+art: {"label": "COOKING AT MIDNIGHT BUNSIK", "sprites": ["gimbap", "hotteok", "sikhye"]}
 ---
 
-The menu at Midnight Bunsik has seven dishes: tteokbokki, gimbap, fish cake, corn dogs, ramyeon, hotteok, and sikhye. Each asks for its own little gestures as you place ingredients and cook.
+Midnight Bunsik serves tteokbokki, gimbap, fish cake skewers, Korean corn dogs, ramyeon, hotteok, sikhye, pan-fried mandu, and bibim noodles. More dishes become available as you keep the shop open, and each calls for a different set of movements.
+
+Gimbap starts with fillings on a sheet of seaweed, ready to roll and slice. Mandu go into the pan to crisp on the bottom. For bibim noodles, measure the sauce to match the order, then lift the noodles from the outside and fold them toward the center.
 
 ## Keep an order slip beside you
 

@@ -1,0 +1,164 @@
+{
+  "slug": "jangdokgarden",
+  "kind": "game",
+  "status": "development",
+  "icon": "/products/jangdokgarden/icon.png",
+  "socialImage": "/products/jangdokgarden/garden.png",
+  "platforms": [
+    "iPhone"
+  ],
+  "accent": "garden",
+  "order": 3,
+  "stores": [],
+  "artwork": {
+    "src": "/products/jangdokgarden/garden.png",
+    "alt": {
+      "ko": "기와집 앞 장독과 꽃나무가 있는 장독대 정원 게임 원화",
+      "en": "Original Jangdok Garden artwork: fermentation jars and flowering trees outside a tiled-roof house"
+    },
+    "label": {
+      "ko": "개발 중인 게임의 원화",
+      "en": "Artwork from the game in development"
+    }
+  },
+  "copy": {
+    "ko": {
+      "name": "장독대 정원",
+      "tagline": "장독을 돌보고, 한 계절의 맛을 나누는 마당.",
+      "description": "김치와 장을 담그고 날씨에 맞춰 장독을 돌보며, 이웃의 주문과 할머니의 편지를 따라 공방을 꾸려가는 이야기 경영 게임.",
+      "intro": "장독이 줄지어 선 마당에서 하루를 시작합니다. 재료를 준비하고 발효 상태를 살피고, 익은 음식을 진열해 이웃에게 건넵니다. 주문을 맞추는 동안 편지가 쌓이고, 공방에서 어떤 삶을 이어갈지도 조금씩 고르게 됩니다.",
+      "genre": "발효 공방 · 경영 · 이웃 이야기",
+      "status": "iPhone용 개발 중",
+      "purchase": "유료 오프라인 게임으로 개발하고 있습니다. 정식 출시일과 판매 가격은 출시 안내에서 확정해 전합니다.",
+      "features": [
+        {
+          "title": "담그고, 기다리고, 맛보기",
+          "body": "김치·장·고추장·장아찌·식초를 만들며 재료와 발효 상태를 살핍니다. 익은 음식을 꺼내 진열하고 다음 생산을 준비합니다."
+        },
+        {
+          "title": "날씨에 맞춰 돌보는 마당",
+          "body": "계절과 날씨를 보고 장독을 관리합니다. 오늘의 상태와 주문을 함께 살펴 공방의 하루를 정합니다."
+        },
+        {
+          "title": "편지와 약속이 쌓이는 공방",
+          "body": "이웃의 주문과 할머니의 편지, 대화 속 약속이 운영과 이어집니다. 내가 고른 공방의 방향을 돌아봅니다."
+        }
+      ],
+      "facts": [
+        {
+          "label": "무대",
+          "value": "장독이 있는 발효 공방"
+        },
+        {
+          "label": "만드는 것",
+          "value": "김치 · 장 · 장아찌 등"
+        },
+        {
+          "label": "언어",
+          "value": "한국어 · English"
+        },
+        {
+          "label": "진행",
+          "value": "기기 저장 · 오프라인"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/products/jangdokgarden/yard-ko.webp",
+          "caption": "마당에서 날씨와 장독을 확인하고 하루를 시작합니다."
+        },
+        {
+          "src": "/products/jangdokgarden/jar-ko.webp",
+          "caption": "독을 열어 발효 단계와 음식의 맛을 확인합니다."
+        },
+        {
+          "src": "/products/jangdokgarden/market-ko.webp",
+          "caption": "가게 진열, 장날, 주문 중 어디에 내놓을지 살펴봅니다."
+        }
+      ],
+      "faq": [
+        {
+          "q": "지금 다운로드할 수 있나요?",
+          "a": "현재 개발 중입니다. 공개 다운로드와 가격은 정식 출시 안내가 준비되면 이 페이지에 연결합니다."
+        },
+        {
+          "q": "어떤 게임인가요?",
+          "a": "음식을 담그고 발효 상태를 돌보며 판매하는 공방 경영 게임입니다. 이웃의 주문과 편지도 함께 읽게 됩니다."
+        },
+        {
+          "q": "게임 소식은 어디에서 읽나요?",
+          "a": "이 페이지의 블로그에 공방 소개와 제작 소식을 모읍니다. 시작할 때 참고할 플레이 가이드도 함께 볼 수 있습니다."
+        }
+      ]
+    },
+    "en": {
+      "name": "Jangdok Garden",
+      "tagline": "Tend a jar. Share a season.",
+      "description": "Make kimchi and fermented foods, tend jars through changing weather, and run a little workshop shaped by neighbors’ orders and Grandma’s letters.",
+      "intro": "Begin the day in a courtyard lined with fermentation jars. Prepare ingredients, check each batch, and put finished food on the shelf for your neighbors. As orders come and letters arrive, you choose the kind of workshop—and life—you want to keep.",
+      "genre": "Fermentation workshop · Management · Neighbor stories",
+      "status": "In development for iPhone",
+      "purchase": "In development as a paid, offline game. The release date and price will be confirmed in a release announcement.",
+      "features": [
+        {
+          "title": "Prepare, wait, and taste",
+          "body": "Make kimchi, jang, gochujang, pickles, and vinegar. Check ingredients and fermentation, put finished food on display, and plan the next batch."
+        },
+        {
+          "title": "A courtyard shaped by the weather",
+          "body": "Look at the season and weather as you tend your jars. Balance the condition of your food with the orders waiting at the workshop."
+        },
+        {
+          "title": "A workshop that keeps its promises",
+          "body": "Neighbors’ orders, Grandma’s letters, and promises made in conversation become part of running the workshop. Look back on the direction you chose."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Setting",
+          "value": "A fermentation courtyard"
+        },
+        {
+          "label": "On the shelf",
+          "value": "Kimchi, jang, pickles & more"
+        },
+        {
+          "label": "Languages",
+          "value": "한국어 · English"
+        },
+        {
+          "label": "Progress",
+          "value": "On-device · Offline"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/products/jangdokgarden/yard-en.webp",
+          "caption": "Check the weather and the jars before starting work in the courtyard."
+        },
+        {
+          "src": "/products/jangdokgarden/jar-en.webp",
+          "caption": "Open a jar to check the fermentation stage and taste the batch."
+        },
+        {
+          "src": "/products/jangdokgarden/market-en.webp",
+          "caption": "Choose between the shop display, market stall, and orders."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I download it now?",
+          "a": "The game is in development. Public download links and pricing will appear here when the release announcement is ready."
+        },
+        {
+          "q": "What kind of game is it?",
+          "a": "Run a fermentation workshop: prepare food, tend your batches, and sell what is ready. Neighbors’ orders and letters accompany the work."
+        },
+        {
+          "q": "Where can I follow the game?",
+          "a": "The game journal collects introductions and development stories. Play guides offer a place to start, too."
+        }
+      ]
+    }
+  }
+}

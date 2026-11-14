@@ -2,10 +2,10 @@
 import '../styles/global.css';
 import '../styles/products.css';
 import { copy, locales, homeUrl, contactEmail, type Locale } from '../lib/site';
-const {lang='en', title, description, image='/favicon.svg', structured, alternates} = Astro.props as {lang?:Locale,title?:string,description?:string,image?:string,structured?:Record<string,unknown>,alternates?:{lang:Locale,path:string}[]};
+const {lang='en', title, description, image='/favicon.svg', structured, alternates, notFound=false} = Astro.props as {lang?:Locale,title?:string,description?:string,image?:string,structured?:Record<string,unknown>,alternates?:{lang:Locale,path:string}[],notFound?:boolean};
 const path=Astro.url.pathname;
 const suffix=path.replace(/^\/ko(?=\/)/,'').replace(/^\/+|\/+$/g,'');
-const links=alternates??Object.keys(locales).map(lang=>({lang:lang as Locale,path:`${locales[lang as Locale].prefix}/${suffix}${suffix?'/':''}`}));
+const links=notFound?[]:alternates??Object.keys(locales).map(lang=>({lang:lang as Locale,path:`${locales[lang as Locale].prefix}/${suffix}${suffix?'/':''}`}));
 const other=links.find(l=>l.lang!==lang)?.path;
 const t = copy[lang];
 const canonical = new URL(path, 'https://pibostudio.com');
@@ -19,10 +19,10 @@ const canonical = new URL(path, 'https://pibostudio.com');
     <meta name="theme-color" content="#f9f8f3" />
     <title>{title??t.title}</title>
     <meta name="description" content={description??t.description} />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={notFound?'noindex, follow':'index, follow'} />
+    {!notFound&&<link rel="canonical" href={canonical} />}
     {links.map(l=><link rel="alternate" hreflang={l.lang} href={new URL(l.path,'https://pibostudio.com')}/>)}
-    <link rel="alternate" hreflang="x-default" href={new URL(links.find(l=>l.lang==='en')?.path??'/','https://pibostudio.com')} />
+    {!notFound&&<link rel="alternate" hreflang="x-default" href={new URL(links.find(l=>l.lang==='en')?.path??'/','https://pibostudio.com')} />}
     <meta property="og:title" content={title??t.title}/>
     <meta property="og:description" content={description??t.description}/>
     <meta property="og:url" content={canonical}/>
@@ -39,7 +39,7 @@ const canonical = new URL(path, 'https://pibostudio.com');
     <script is:inline>
       try { const saved = localStorage.getItem('pibo-theme'); document.documentElement.dataset.theme = saved === 'dark' || saved === 'light' ? saved : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); } catch { document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
     </script>
-    <script is:inline src="/ga4.js" defer></script>
+    {!notFound&&<script is:inline src="/ga4.js" defer></script>}
   </head>
   <body>
     <a class="skip-link" href="#main">{t.skip}</a>

@@ -1,0 +1,165 @@
+{
+  "slug": "seoul-alley-1988",
+  "kind": "game",
+  "status": "development",
+  "icon": "/products/seoul-alley-1988/icon.png",
+  "socialImage": "/products/seoul-alley-1988/icon.png",
+  "platforms": [
+    "iPhone",
+    "iPad"
+  ],
+  "accent": "studio",
+  "order": 4,
+  "stores": [],
+  "artwork": {
+    "src": "/products/seoul-alley-1988/icon.png",
+    "alt": {
+      "ko": "큰 나무 옆 작은 가게를 그린 서울 골목 1988 게임 아이콘",
+      "en": "Seoul Alley 1988 game icon showing a small shop beside a leafy tree"
+    },
+    "label": {
+      "ko": "개발 중인 게임의 아이콘 원화",
+      "en": "Icon artwork from the game in development"
+    }
+  },
+  "copy": {
+    "ko": {
+      "name": "서울 골목 1988",
+      "tagline": "작은 가게에서 시작해, 골목의 시간을 살아갑니다.",
+      "description": "1988년 할머니의 가게에서 시작해 물건과 가격, 운영 방식을 고르며 변화하는 골목과 여러 세대의 이야기를 잇는 경영 게임.",
+      "intro": "가게에 무엇을 들이고 얼마에 팔지, 번 돈을 어디에 남겨 둘지 정합니다. 시대가 바뀌면 손님과 이웃의 사정도 달라집니다. 가게의 장부와 대화를 함께 보며 다음 달의 생활을 이어갑니다.",
+      "genre": "가게 경영 · 시대의 변화 · 가족과 이웃",
+      "status": "iPhone · iPad용 개발 중",
+      "purchase": "유료 게임으로 개발하고 있습니다. 정식 출시일과 판매 가격은 출시 안내에서 확정해 전합니다.",
+      "features": [
+        {
+          "title": "1988년의 작은 가게",
+          "body": "할머니의 가게에서 물건을 사고팔며 운영을 시작합니다. 상품과 가격, 다음 영업의 준비를 직접 고릅니다."
+        },
+        {
+          "title": "장부로 돌아보는 선택",
+          "body": "매출과 비용, 남은 돈을 함께 살핍니다. 가게를 유지하거나 넓히고 운영 방식을 바꿀 때 무엇을 감당할지 생각합니다."
+        },
+        {
+          "title": "가게 밖으로 이어지는 시간",
+          "body": "변화하는 골목에서 가족과 이웃의 이야기를 만납니다. 앞서 나눈 말과 선택이 후속 장면과 추억에 남습니다."
+        }
+      ],
+      "facts": [
+        {
+          "label": "게임 속 시간",
+          "value": "1988년~2026년"
+        },
+        {
+          "label": "장르",
+          "value": "이야기가 있는 경영"
+        },
+        {
+          "label": "언어",
+          "value": "한국어 · English"
+        },
+        {
+          "label": "진행",
+          "value": "기기 저장 · 파일 내보내기"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/products/seoul-alley-1988/shop-ko.webp",
+          "caption": "1988년의 첫 가게. 매입과 가격을 정하고 영업을 시작합니다."
+        },
+        {
+          "src": "/products/seoul-alley-1988/ledger-ko.webp",
+          "caption": "장부에서 이번 달 매출과 원가, 운영비를 살펴봅니다."
+        },
+        {
+          "src": "/products/seoul-alley-1988/alley-ko.webp",
+          "caption": "가게 밖 골목을 돌아보며 이웃을 만납니다."
+        }
+      ],
+      "faq": [
+        {
+          "q": "지금 다운로드할 수 있나요?",
+          "a": "현재 개발 중입니다. 정식 출시 후 공개 다운로드 링크를 이 페이지에 안내합니다."
+        },
+        {
+          "q": "계속 가게를 키워야 하나요?",
+          "a": "가게 유지·확장·운영 전환을 선택하며 진행하는 게임입니다. 장부를 확인하고 현재 가게와 생활에 맞는 방향을 고르게 됩니다."
+        },
+        {
+          "q": "블로그에서 무엇을 볼 수 있나요?",
+          "a": "골목과 인물 소개, 가게 운영을 이해하는 글, 제작 소식을 모읍니다. 결말을 드러내는 글에는 내용을 미리 안내합니다."
+        }
+      ]
+    },
+    "en": {
+      "name": "Seoul Alley 1988",
+      "tagline": "A little shop. A neighborhood’s changing years.",
+      "description": "Start at Grandma’s shop in 1988. Choose goods, prices, and ways of working as a changing neighborhood carries family and neighbor stories across generations.",
+      "intro": "Decide what to stock, what to charge, and how much to keep for another day. As the years change, so do your customers’ and neighbors’ lives. Read conversations alongside the shop ledger to work out what comes next.",
+      "genre": "Shop management · Changing times · Family & neighbors",
+      "status": "In development for iPhone and iPad",
+      "purchase": "In development as a paid game. The release date and price will be confirmed in a release announcement.",
+      "features": [
+        {
+          "title": "A small shop in 1988",
+          "body": "Begin by buying and selling at Grandma’s shop. Choose your stock, set prices, and prepare for another day of business."
+        },
+        {
+          "title": "Choices you can read in a ledger",
+          "body": "Look at sales, costs, and the money that remains. Consider what you can sustain when keeping the shop small, expanding, or changing how it works."
+        },
+        {
+          "title": "Years that reach beyond the counter",
+          "body": "Meet family and neighbors in a changing alley. Earlier conversations and choices leave traces in later scenes and memories."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Time span",
+          "value": "1988 to 2026"
+        },
+        {
+          "label": "Genre",
+          "value": "Story-driven management"
+        },
+        {
+          "label": "Languages",
+          "value": "한국어 · English"
+        },
+        {
+          "label": "Progress",
+          "value": "On-device · File export"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/products/seoul-alley-1988/shop-en.webp",
+          "caption": "The first shop in 1988. Order stock and set prices before opening."
+        },
+        {
+          "src": "/products/seoul-alley-1988/receipt-en.webp",
+          "caption": "Read the receipt after closing to see how the day went."
+        },
+        {
+          "src": "/products/seoul-alley-1988/alley-ko.webp",
+          "caption": "Step out of the shop to explore the alley and meet the neighbors. Shown in Korean."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I download it now?",
+          "a": "The game is in development. Public download links will be added here after release."
+        },
+        {
+          "q": "Do I always have to expand?",
+          "a": "Keeping a shop small, expanding, and changing its operation are choices within the game. Consult the ledger and consider what fits the shop and household."
+        },
+        {
+          "q": "What will the journal cover?",
+          "a": "Meet the neighborhood and its characters, read about shop management, and follow development stories. Posts that reveal endings will flag that content in advance."
+        }
+      ]
+    }
+  }
+}

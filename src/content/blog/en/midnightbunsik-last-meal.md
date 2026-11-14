@@ -5,6 +5,7 @@ lang: "en"
 title: "A little shop for one last meal"
 description: "In Midnight Bunsik, a meal and a farewell leave their traces at the same table."
 date: "2026-10-14"
+updated: "2026-11-14"
 game: "midnightbunsik"
 art: {"label": "ONE LAST MEAL", "sprites": ["tteokbokki", "sikhye"]}
 ---
@@ -27,6 +28,6 @@ The first 21 nights contain the shop’s first story and its farewells. A conclu
 
 ## A little shop still being prepared
 
-Midnight Bunsik is being prepared as a free iPhone game with banners and optional one-time ad removal in Korean and English. The full story is free; ad removal has a Korean base price of KRW 4,900. The public release date has not been announced. Longer physical-device reviews and observation of human play remain ahead.
+Midnight Bunsik is in development for iPhone, with Korean and English text. The full story is planned as a free download with banners. Optional one-time ad removal has a planned Korean price of KRW 4,900. The public release date has yet to be announced.
 
-Read about [the gestures behind seven dishes](/midnightbunsik/blog/seven-dishes/) and [a table that remembers](/midnightbunsik/blog/a-table-that-remembers/).
+Read about [how to make nine dishes](/midnightbunsik/blog/seven-dishes/) and [a table that remembers](/midnightbunsik/blog/a-table-that-remembers/).

@@ -4,12 +4,14 @@ import Worlds from './Worlds.astro';
 import Pibo from './Pibo.astro';
 import ProductCard from './ProductCard.astro';
 import PostCard from './PostCard.astro';
-import {getProducts,getArticles,urlFor} from '../lib/content';
+import {getProducts,getArticles,scopeOf,urlFor} from '../lib/content';
 import { copy, contactEmail, type Locale } from '../lib/site';
 const { lang = 'en' } = Astro.props as { lang?: Locale };
 const t = copy[lang];
 const products=await getProducts();
-const posts=(await getArticles('blog',lang)).slice(0,3);
+const journal = await getArticles('blog', lang);
+const featured = [...new Set(journal.map(scopeOf))].slice(0, 3);
+const posts = featured.flatMap(scope => journal.find(post => scopeOf(post) === scope) ?? []);
 ---
 <Layout lang={lang}>
   <main id="main">

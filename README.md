@@ -2,6 +2,20 @@
 
 Website for Pibo Studio, the games and apps brand operated by GATEPOP Inc. English `/`, Korean `/ko/`. Astro 7.3.8, static HTML, native TypeScript/CSS. Node >=22.12; checked with Node 24.20.0. Site check uses Python 3 standard library.
 
+## Game pages and journals · 2026-11-14
+
+Game source stays in independent game repositories. PIBO hosts each game's introduction, journal, guides and web-size artwork. See [GAME-CONTENT.md](GAME-CONTENT.md) for source ownership, the local `../games/` directory, stable URLs and the editing workflow.
+
+| Game | Introduction | Journal | Guides |
+|---|---|---|---|
+| Seoul Alley 1988 | `/seoul-alley-1988/` | `/seoul-alley-1988/blog/` | `/seoul-alley-1988/guides/` |
+| Jangdok Garden | `/jangdokgarden/` | `/jangdokgarden/blog/` | `/jangdokgarden/guides/` |
+| Midnight Bunsik | `/midnightbunsik/` | `/midnightbunsik/blog/` | `/midnightbunsik/guides/` |
+
+Add `/ko` before each path for Korean. The three games have introductions with play screenshots, journals, and starting guides in both languages. The pages mark the games as in development. Midnight Bunsik's menu article retains its existing `seven-dishes` URL and now covers nine dishes.
+
+Cloudflare Pages builds production from `main`. The shared layout loads the existing `public/ga4.js` on public pages. The build generates `sitemap.xml`, `robots.txt`, both RSS feeds, and a custom `404.html` excluded from the sitemap.
+
 ## Product and blog integration · 2026-10-15
 
 The user requested Midnight Bunsik’s site/blog and a matching StockPets section inside this repository. Both now use shared product, journal, guide and support layouts. The original homepage design/mascot remains. This request authorizes these product pages; public deployment and broader site work remain separate.
@@ -44,7 +58,7 @@ Astro 7 preview runs in the background; `npx astro preview stop` stops it. See `
 - `docs/ASSETS.md`, `asset-provenance.json`: source and reuse record.
 - `docs/README-before-product-integration.md`: previous milestone preserved.
 
-## Publication remains pending
+## Initial preview history · 2026-10-15
 
 The build retains `noindex, nofollow` and robots `Disallow: /` for local review. Source legal pages carry non-rendered draft comments. No Git push, Cloudflare deployment, DNS change or public publication was performed. The domain did not resolve during this task’s browser check. To publish: approve the screens and policy text, authorize deployment, connect/verify hosting and DNS, then change indexing guards and verify live links. About/contact standalone pages and a dedicated 404 can be added in a separately authorized broader site pass; homepage studio/contact sections already work.
 

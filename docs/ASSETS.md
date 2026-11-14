@@ -16,3 +16,12 @@ These are copies from the user's existing projects, used under the user's instru
 Exact original/destination SHA-256 hashes are in `docs/asset-provenance.json`. The site does not ship any IPA, save file, developer credential, or audio. Sprite anchor/composition is web CSS; original frame geometry and game data are unchanged.
 
 StockPets blog/guide originals are recorded in `source` frontmatter. The Korean and English copies were adapted for PIBO's routes. Obsolete no-ads/no-purchases claims were corrected to the current iPhone store description (banner ads, optional permanent ad removal); iPhone language support is 17. Android conditions remain the responsibility of the linked live store. Existing StockPets website and translations were not edited.
+
+
+## Jangdok Garden and Seoul Alley 1988 · 2026-11-07
+
+The owner requested the games' introduction/blog content inside PIBO. The three new PNGs are byte-identical copies from the owner's game projects: Jangdok Garden's current iOS icon and courtyard title background, and Seoul Alley 1988's current iOS icon. Exact sources and SHA-256 values are appended to `asset-provenance.json`. CSS frames/crops the art responsively without changing the originals. These are labeled game/icon artwork, not screenshots. No app binary, save, full-resolution scene library, account data, or new third-party image is included.
+
+## Gameplay galleries · 2026-11-14
+
+The galleries use screenshots from the games’ own QA runs. Seoul Alley 1988 shows the first shop, the ledger or a daily receipt, and the alley. Jangdok Garden shows the yard, a jar, and the market menu. Midnight Bunsik shows the shop and the cooking screens for bibim noodles and mandu. The new WebP copies use lossless encoding. Their paths and both original and published SHA-256 hashes are in `asset-provenance.json`, relative to the local GitHub projects folder.

@@ -32,12 +32,16 @@ class Page(HTMLParser):
 for f in ROOT.rglob('*.html'):
  path='/' + str(f.relative_to(ROOT)).removesuffix('index.html')
  page=Page();page.feed(f.read_text());pages[path]=page
+error_path='/404.html'
+if error_path not in pages:errors.append('Missing Cloudflare Pages 404.html')
 for path,page in pages.items():
  if page.h1!=1:errors.append(f'{path}: expected one h1, found {page.h1}')
  if len(set(page.ids))!=len(page.ids):errors.append(f'{path}: duplicate IDs')
  if not page.title or not page.meta.get('description'):errors.append(f'{path}: missing title/description')
- if page.canonical!='https://pibostudio.com'+path:errors.append(f'{path}: wrong canonical {page.canonical}')
- if page.meta.get('robots')!='index, follow':errors.append(f'{path}: public indexing metadata absent')
+ canonical=None if path==error_path else 'https://pibostudio.com'+path
+ robots='noindex, follow' if path==error_path else 'index, follow'
+ if page.canonical!=canonical:errors.append(f'{path}: wrong canonical {page.canonical}')
+ if page.meta.get('robots')!=robots:errors.append(f'{path}: wrong indexing metadata')
  for ref in page.refs:
   parsed=urlsplit(ref)
   if parsed.scheme or parsed.netloc:continue
@@ -58,7 +62,7 @@ for path,page in pages.items():
   partner=pages[urlsplit(other).path]
   if partner.alts.get(page.lang)!=page.canonical:errors.append(f'{path}: nonreciprocal translation')
 xml=ET.parse(ROOT/'sitemap.xml'); listed=[e.text for e in xml.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
-if set(listed)!={'https://pibostudio.com'+p for p in pages}:errors.append('Sitemap does not match public pages')
+if set(listed)!={'https://pibostudio.com'+p for p in pages if p!=error_path}:errors.append('Sitemap does not match public pages')
 for file in ('rss.xml','ko/rss.xml'):
  feed=ET.parse(ROOT/file)
  for link in feed.findall('.//item/link'):
@@ -75,7 +79,8 @@ for source in (ROOT.parent/'src/content/products').glob('*.json'):
    if store['url'] not in page.refs:errors.append(f'{prefix}{slug}: missing store link {store["label"]}')
   official=product.get('officialSite',{}).get(lang)
   if official and official not in page.refs:errors.append(f'{prefix}{slug}: missing official website')
-  if product['kind']=='app' and prefix+slug+'/' not in pages[prefix+'apps/'].refs:errors.append(f'{slug}: missing from apps collection')
+  collection='games/' if product['kind']=='game' else 'apps/'
+  if prefix+slug+'/' not in pages[prefix+collection].refs:errors.append(f'{slug}: missing from {collection} collection')
 if errors:
  for e in errors:print(e)
  raise SystemExit(1)

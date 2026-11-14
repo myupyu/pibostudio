@@ -13,15 +13,15 @@
     "ko": {
       "name": "저승분식",
       "tagline": "마지막 한 끼를 차리는 작은 가게.",
-      "description": "일곱 가지 분식을 손으로 차리고, 마지막 한 끼의 기억을 간직하며, 내 취향의 식탁을 완성하는 이야기 게임.",
-      "intro": "밤이 깊어지면 작은 분식집에 손님이 찾아옵니다. 주문을 듣고, 내 손으로 한 그릇을 차리고, 잠시 같은 식탁에 앉아 주세요. 한 끼가 끝나도 그날의 기억은 가게에 남습니다.",
+      "description": "자정에 문을 여는 분식집에서 아홉 가지 메뉴를 직접 차리고, 손님의 이야기를 들으며 식탁에 추억을 남기는 게임.",
+      "intro": "이승과 저승 사이의 분식집에서 견습 저승사자로 일합니다. 손님의 주문을 듣고, 직접 한 그릇을 차려 같은 식탁에 앉습니다. 손님이 떠난 뒤에도 그날의 기억은 가게에 남습니다.",
       "genre": "이야기 · 조리 · 꾸미기",
       "status": "iPhone 출시 준비 중",
-      "purchase": "무료 다운로드와 배너 광고로 준비하고 있습니다. 광고 제거는 한국 기준 4,900원의 선택적인 일회성 구매이며 모든 이야기는 무료입니다. 정식 출시일은 아직 정하지 않았습니다.",
+      "purchase": "본편과 후속 이야기는 무료로 제공할 예정입니다. 배너 광고는 한국 기준 4,900원으로 한 번 결제해 제거할 수 있도록 준비하고 있습니다. 정식 출시일은 아직 공개되지 않았습니다.",
       "features": [
         {
-          "title": "손으로 차리는 일곱 그릇",
-          "body": "떡볶이, 김밥, 어묵, 핫도그, 라면, 호떡, 식혜. 재료를 놓고, 조리하고, 마무리하며 서로 다른 손길로 한 끼를 차립니다."
+          "title": "손으로 차리는 아홉 가지 메뉴",
+          "body": "떡볶이와 김밥부터 군만두와 비빔국수까지. 김밥은 말아 썰고, 만두는 팬에서 굽고, 국수는 양념에 버무립니다."
         },
         {
           "title": "작별까지 이어지는 손님 이야기",
@@ -39,7 +39,7 @@
         },
         {
           "label": "내 손으로",
-          "value": "7가지 분식"
+          "value": "9가지 분식"
         },
         {
           "label": "언어",
@@ -52,16 +52,16 @@
       ],
       "gallery": [
         {
-          "src": "/products/midnightbunsik/order.jpg",
-          "caption": "손님의 주문을 듣고 오늘의 한 끼를 준비합니다."
+          "src": "/products/midnightbunsik/shop-ko.webp",
+          "caption": "자정에 문을 연 분식집. 첫날 손님의 주문을 받습니다."
         },
         {
-          "src": "/products/midnightbunsik/cooking.jpg",
-          "caption": "재료를 놓고 조리하는 직접 차리기 화면입니다."
+          "src": "/products/midnightbunsik/noodles-ko.webp",
+          "caption": "찬 면에 양념이 고르게 묻도록 비빔국수를 버무립니다."
         },
         {
-          "src": "/products/midnightbunsik/result.jpg",
-          "caption": "한 그릇 뒤에 남는 손님의 반응을 읽어 보세요."
+          "src": "/products/midnightbunsik/mandu-ko.webp",
+          "caption": "팬에 올린 군만두의 익힘 상태를 확인합니다."
         }
       ],
       "faq": [
@@ -82,15 +82,15 @@
     "en": {
       "name": "Midnight Bunsik",
       "tagline": "A little shop. One last meal.",
-      "description": "Prepare seven Korean street foods by hand, keep the memory of a last meal, and make a table that feels like your own.",
-      "intro": "When night falls, guests arrive at a small snack shop. Listen to an order, prepare a bowl with your hands, and share a little time at the table. The meal ends; its memory stays in the shop.",
+      "description": "Serve nine Korean snack shop favorites, listen to your guests, and keep their memories at a little shop that opens at midnight.",
+      "intro": "You’re a reaper in training at a snack shop between the worlds of the living and the dead. Listen to each guest’s order, make their meal by hand, and share a little time at the table. The memory stays in the shop after they leave.",
       "genre": "Story · Cooking · Decorating",
       "status": "In development for iPhone",
-      "purchase": "Being prepared as a free download with banner ads. Optional one-time ad removal has a Korean base price of KRW 4,900. The full story is free. The public release date has not been announced.",
+      "purchase": "The full story is planned as a free download with banners. Optional one-time ad removal has a planned Korean price of KRW 4,900. The public release date has yet to be announced.",
       "features": [
         {
-          "title": "Seven dishes, made by hand",
-          "body": "Tteokbokki, gimbap, fish cake, corn dogs, ramyeon, hotteok, and sikhye. Place ingredients, cook, and finish each meal with its own small gestures."
+          "title": "Nine dishes to make by hand",
+          "body": "From tteokbokki and gimbap to pan-fried mandu and bibim noodles. Roll and slice the gimbap, brown the dumplings, and toss the noodles in sauce."
         },
         {
           "title": "Guest stories that reach a farewell",
@@ -108,7 +108,7 @@
         },
         {
           "label": "Made by hand",
-          "value": "7 street foods"
+          "value": "9 Korean snack shop dishes"
         },
         {
           "label": "Languages",
@@ -125,12 +125,12 @@
           "caption": "Listen to a guest’s order and prepare their meal."
         },
         {
-          "src": "/products/midnightbunsik/cooking.jpg",
-          "caption": "Place ingredients and cook on the direct preparation screen."
+          "src": "/products/midnightbunsik/noodles-en.webp",
+          "caption": "Toss the cool bibim noodles until the sauce coats the strands."
         },
         {
-          "src": "/products/midnightbunsik/result.jpg",
-          "caption": "Take your time with the guest’s response after serving."
+          "src": "/products/midnightbunsik/mandu-en.webp",
+          "caption": "Check how the mandu are browning in the pan."
         }
       ],
       "faq": [

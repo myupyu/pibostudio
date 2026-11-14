@@ -383,5 +383,116 @@
     "path": "products/tapseoul/social.png",
     "source": "/Users/danpro/Documents/GitHub/tapseoul-web/public/brand/icon.png",
     "sha256": "a1d805d111fd830ac83d0eeb22c89b333b0019214f882beb0a1195378635d4c7"
+  },
+  {
+    "path": "products/jangdokgarden/icon.png",
+    "source": "/Users/danpro/Documents/GitHub/jangdokgarden/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png",
+    "sha256": "f5a4196ed569d74ce58a366678b037e644d110a2e4d5b0fb829f5dbcc0415a3b"
+  },
+  {
+    "path": "products/jangdokgarden/garden.png",
+    "source": "/Users/danpro/Documents/GitHub/jangdokgarden/assets/background/bg_title.png",
+    "sha256": "0c264c6f9192f955c44c1f61668cb95df677709b8a38ab7373bf4bf16f0868c5"
+  },
+  {
+    "path": "products/seoul-alley-1988/icon.png",
+    "source": "/Users/danpro/Documents/Codex/2026-10-14/1988-1-1988-mvp-m1-0/work/dashboard/seoul-alley-1988/app/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png",
+    "sha256": "7272b26a4370f7b9357164e090789673a2ea933333495f316ca818b8c00a2b01"
+  },
+  {
+    "path": "products/seoul-alley-1988/shop-ko.webp",
+    "source": "games/seoul-alley-1988/work/prepaid-final-20261114/shots/f15-shop.png",
+    "sourceSha256": "25dd402cb9adde770e1d7176984d7f7d23bee9e404834229d357b0430e56c13b",
+    "sha256": "ec92e6571a282a4a8708cc095903c20fa84ba56103782a8987edfbe00d6b6ee1"
+  },
+  {
+    "path": "products/seoul-alley-1988/ledger-ko.webp",
+    "source": "games/seoul-alley-1988/work/prepaid-final-20261114/shots/f25-ledger.png",
+    "sourceSha256": "13d83e848e214a63f858327c3ae95868d94ef07e1c1cc635e0222557170654ff",
+    "sha256": "5945f8368fbad027d0c084d91d9a311db32fded310a837e688b3864a417158cb"
+  },
+  {
+    "path": "products/seoul-alley-1988/alley-ko.webp",
+    "source": "games/seoul-alley-1988/work/prepaid-final-20261114/shots/f27-alley.png",
+    "sourceSha256": "67b674b16af96b95d57c1d47f47e1d32c06503dc168432f594cc449d3252ec8c",
+    "sha256": "7ea67f3b1efdcbd526e9ce83cdc0100a68b295bcf65b15d8cebcc37855151b9b"
+  },
+  {
+    "path": "products/seoul-alley-1988/shop-en.webp",
+    "source": "games/seoul-alley-1988/work/prepaid-final-20261114/shots/en02-prep.png",
+    "sourceSha256": "bac3e1383a55ea4c09112160c3c8b88cef59cba3ba36c66415c5e3c666e59183",
+    "sha256": "fcdf0a629a9b11f208c706430679add1f201e001dfbc4d6eed740cb331cf9c6e"
+  },
+  {
+    "path": "products/seoul-alley-1988/receipt-en.webp",
+    "source": "games/seoul-alley-1988/work/prepaid-final-20261114/shots/en04-receipt.png",
+    "sourceSha256": "58b0498314d3d40baf9bcb3f91ef996877763f1c2bfc2a2c5dd257fb078b4626",
+    "sha256": "0aeb42147217d6880a95ec763b524f3f82bced82ed92c3fbba4d8ea89706c7be"
+  },
+  {
+    "path": "products/jangdokgarden/yard-ko.webp",
+    "source": "jangdokgarden/docs/verification/paid-visual-ux-code-review/after/ko-430-yard.png",
+    "sourceSha256": "b888875d4f5c592b0ebfd2aa16095f3437c44bc6af1d5750b092461cd14cea39",
+    "sha256": "31a4b40554699c493299370184a47b3b7656df1f3ac067bfb053e5cc77b2b94f"
+  },
+  {
+    "path": "products/jangdokgarden/jar-ko.webp",
+    "source": "jangdokgarden/docs/verification/paid-visual-ux-code-review/after/ko-430-taste.png",
+    "sourceSha256": "457cdbe87f102de975e7c0c80aa1e688034dc7880739cd26c78c7eae8260474a",
+    "sha256": "02baf50951b1136acda35bde87953210984390ce2afdfdd441f1b1a3bfa99c68"
+  },
+  {
+    "path": "products/jangdokgarden/market-ko.webp",
+    "source": "jangdokgarden/docs/verification/paid-visual-ux-code-review/after/ko-430-first-market.png",
+    "sourceSha256": "c354137aca380b2f845b8512c8ea87e9d0e17c9c0690489b1207f9e40a09a1a6",
+    "sha256": "3bdb698090ad283c9923c34811f0f82ad9eefcc838d61e7d058ad33b9c7ae9b7"
+  },
+  {
+    "path": "products/jangdokgarden/yard-en.webp",
+    "source": "jangdokgarden/docs/verification/paid-visual-ux-code-review/after/en-430-yard.png",
+    "sourceSha256": "b8e7a019b661225d23cc39bdfaa5ab2dc831f50fb9cc1655fe0e836a3e6802a4",
+    "sha256": "1fa3879981752ab3a9d57e0c2f73484b16bd474d098470b0e493407213dcfda8"
+  },
+  {
+    "path": "products/jangdokgarden/jar-en.webp",
+    "source": "jangdokgarden/docs/verification/paid-visual-ux-code-review/after/en-430-taste.png",
+    "sourceSha256": "49b1c0f310da1deb6a1b1e127ddb76fa94f674417832f955a24d3c7d78f6d213",
+    "sha256": "d7bfde19b293017063ba89eb55a9b3d062e58159af8de769b9fbafb871be2241"
+  },
+  {
+    "path": "products/jangdokgarden/market-en.webp",
+    "source": "jangdokgarden/docs/verification/paid-visual-ux-code-review/after/en-430-first-market.png",
+    "sourceSha256": "c1eaf9d54927c113bb51811faf95e7e2977e5a9b4b75acff666de70fac150787",
+    "sha256": "92e9abb0b69c1d1bb83781bebfbec143e934ca6683a887f55f4ec98e834c35ca"
+  },
+  {
+    "path": "products/midnightbunsik/noodles-ko.webp",
+    "source": "midnightbunsik/qa/paid-content-review/after/matrix/screens/matrix-375-ko-large-bibim-bibim-1-action.png",
+    "sourceSha256": "380fda0540c38a827c255bfde5bf2c2b907bcc68eca715a076834f607e53394f",
+    "sha256": "716b64363d8f21031749deac1f478b4c3a670aa15a65e01978ffd20de51b9957"
+  },
+  {
+    "path": "products/midnightbunsik/mandu-ko.webp",
+    "source": "midnightbunsik/qa/paid-content-review/after/matrix/screens/matrix-375-ko-large-mandu-mandu-1-result.png",
+    "sourceSha256": "d11337a051ef5bc1c6986b07f6ee43ef2fb993be8bab6b0f4ece9e5206920d8b",
+    "sha256": "458ced95954092ebdfa091ac28c66d300583bd980ef51435c5222e4d817903ff"
+  },
+  {
+    "path": "products/midnightbunsik/noodles-en.webp",
+    "source": "midnightbunsik/qa/paid-content-review/after/matrix/screens/matrix-375-en-large-bibim-bibim-1-action.png",
+    "sourceSha256": "d9571a4424b57b9b14d98f9e7159e14dd9a28c9dd3995e64db9b619c0e96db6c",
+    "sha256": "d0acdbb62f9db1965cd3aea1e3279b8000316f78bdce212a6cd72cdd5c2dc720"
+  },
+  {
+    "path": "products/midnightbunsik/mandu-en.webp",
+    "source": "midnightbunsik/qa/paid-content-review/after/matrix/screens/matrix-375-en-large-mandu-mandu-1-result.png",
+    "sourceSha256": "be8364ef957bbf78109796133ee67ae329f81e022f42ef4ea556a79de83dd049",
+    "sha256": "339b7e9e3100922d6b8727d8679832a810e5f056a457d182c574ac0ae8450e1a"
+  },
+  {
+    "path": "products/midnightbunsik/shop-ko.webp",
+    "source": "midnightbunsik/qa/paid-content-review/after/first-play/s02.png",
+    "sourceSha256": "473e0e09f1569e4ab90396b71abc7f679be08006378d62181d3ab322ad36ac5a",
+    "sha256": "87390e3845256c8abd977d829b95a940c38f87a66c562b1c6f6c4ce239e44cf9"
   }
 ]
