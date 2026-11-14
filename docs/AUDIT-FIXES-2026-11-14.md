@@ -46,4 +46,13 @@ Preview deployment subdomains deliberately remain accessible with `X-Robots-Tag:
 - `curl --path-as-is -I 'https://www.pibostudio.com//stockpets/?audit=1'` and apex equivalent: 301 to `https://pibostudio.com/stockpets/?audit=1`.
 - Base Pages hostname `/ko/stockpets/?audit=1`: 301 to the matching apex path and query. Existing hash preview: 200 with `X-Robots-Tag: noindex`.
 
-Actual GA4 request count must be checked again on the production deployment after push.
+## Production verification after push
+
+Code commit `b05336f` was pushed to `main`; Cloudflare deployment `27df07cd-3e47-4e51-b197-ecf7079d5228` completed successfully. Production `ga4.js` SHA-256 matched the local file (`d77fc620b0ebe7195df50b4ce7e3e86881e14218d6cfbccb125ac5c93ab53e9a`).
+
+- Chrome Network, Keep log off and cache disabled: `/stockpets/` and `/#audit-fragment` each produced exactly one `en=page_view`, HTTP 204, including observation past the previous delayed duplicate interval. Reported `dl` was respectively `https://pibostudio.com/stockpets/` and `https://pibostudio.com/`, without the fragment.
+- `/stockpets/?audit=1`: zero `collect` requests after load.
+- Both updated StockPets guides returned 200 and displayed the corrected network requirements.
+- A nonexistent production path returned 404 with no `ga4.js` loader.
+- Production Korean StockPets page at 390 px: keyboard Enter focused the first menu link; Escape restored toggle focus and closed the menu.
+- DNT and non-production hostname exclusions were tested in the isolated loader checks, not by changing the user's actual browser DNT preference. GA4 reporting aggregation latency and search indexing are separate from successful request collection and deployment.
