@@ -6,7 +6,7 @@ product: "stockpets"
 title: "How to Play StockPets: The Rules and a Beginner’s Guide to Your First Year"
 description: "How to play StockPets: planting by coin budget, harvesting by percentage, calendar pages, delisting and more, plus a simple plan for your first year."
 date: "2026-10-09"
-updated: "2026-10-14"
+updated: "2026-11-14"
 art: {"label": "GROW TOGETHER", "sprites": ["crop_tomato_sprout"]}
 source: "https://stockpets.com/en/guides/how-to-play/"
 ---
@@ -16,6 +16,8 @@ source: "https://stockpets.com/en/guides/how-to-play/"
 ## What are the basic rules of StockPets?
 
 StockPets is a single-player pet and farm game. Your crops are seeds named after real US companies, and each one follows that company’s historical monthly stock price. Here are the rules in one place.
+
+In iPhone version 1.0.2, the first seed sprouts in your pet’s room. Check how many coins a harvest will bring in and how much a gift or upgrade will leave you. If the calendar runs out, it shows when the next page is due. See the [1.0.2 update](/stockpets/blog/first-seed-update/) for more.
 
 <div class="table-scroll" tabindex="0"><table><thead><tr><th scope="col">Rule</th><th scope="col">How it works</th></tr></thead><tbody><tr><td>Start</td><td>January 1996, a new pet, 3 plots and 10,000 virtual coins</td></tr><tr><td>Turn</td><td>One turn = one month; time moves only when you choose</td></tr><tr><td>Planting</td><td>By coin budget; fractional seeds allowed; minimum 0.01 coins</td></tr><tr><td>Harvesting</td><td>Any whole percentage from 1% to 100%, at the current month’s price</td></tr><tr><td>Prices</td><td>Monthly closing prices, split-adjusted; each company starts at 100 coins in its first recorded month</td></tr><tr><td>Pace</td><td>Free pace for 12 months, then 1 calendar page every 8 hours (hold up to 3)</td></tr><tr><td>Delisting</td><td>The crop dies and its game value becomes zero</td></tr><tr><td>Records ended</td><td>The crop is harvested automatically at the last available price</td></tr><tr><td>Not included</td><td>Cash dividends, taxes, fees and real trades</td></tr></tbody></table></div>
 

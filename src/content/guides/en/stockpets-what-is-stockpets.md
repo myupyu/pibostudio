@@ -6,7 +6,7 @@ product: "stockpets"
 title: "What Is StockPets? A Cozy Pet and Farm Game Grown on Real Stock Market History"
 description: "What is StockPets? A cozy pixel pet and farm game where your crops follow real US stock history from 1996. Here’s how it works and who it’s for."
 date: "2026-10-09"
-updated: "2026-10-14"
+updated: "2026-11-14"
 art: {"label": "GROW TOGETHER", "sprites": ["pet_cat_adult_sparkle_happy"]}
 source: "https://stockpets.com/en/guides/what-is-stockpets/"
 ---
@@ -67,7 +67,7 @@ A lot of the design is about what’s left out. StockPets is meant to be a calm 
 - No real trading and no investment advice.
 - No gambling: there’s no real money and nothing to win.
 - You can start your farm for free.
-- No sign-in, no analytics and no network service. Everything runs on your device.
+- Play without signing in. Your progress is stored on your device. Ads and store purchases or restoration require a connection.
 - No made-up news about specific real companies.
 
 Because progress lives on your device only, there’s no cloud sync. If you want a copy of your history, Settings has “Export my records.” And when you share a memory, the “Share image” card includes only your pet, room and game date; your coin amounts stay private.

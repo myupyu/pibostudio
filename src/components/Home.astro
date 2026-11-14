@@ -10,7 +10,7 @@ const { lang = 'en' } = Astro.props as { lang?: Locale };
 const t = copy[lang];
 const products=await getProducts();
 const journal = await getArticles('blog', lang);
-const featured = [...new Set(journal.map(scopeOf))].slice(0, 3);
+const featured = [...new Set(journal.map(scopeOf))].slice(0, 4);
 const posts = featured.flatMap(scope => journal.find(post => scopeOf(post) === scope) ?? []);
 ---
 <Layout lang={lang}>

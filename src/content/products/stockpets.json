@@ -2,6 +2,7 @@
   "slug": "stockpets",
   "kind": "game",
   "status": "released",
+  "updated": "2026-11-14",
   "icon": "/products/stockpets/icon.png",
   "socialImage": "/products/stockpets/social.jpg",
   "platforms": [
@@ -33,7 +34,7 @@
       "name": "StockPets",
       "tagline": "이번 생은, 작은 농장의 주인.",
       "description": "1996년으로 돌아가 픽셀 펫을 돌보고, 미국 주식의 과거 가격 흐름으로 나만의 농장을 키우는 게임.",
-      "intro": "작은 농장, 새 친구, 그리고 어렴풋이 기억나는 미래. 익숙한 기업을 씨앗으로 심고, 가상 코인으로 수확하고, 준비가 되었을 때 달력 한 장을 넘겨 보세요.",
+      "intro": "1996년 1월, 픽셀 펫과 함께 작은 농장을 시작합니다. 가상 코인으로 미국 기업의 씨앗을 심고, 달력을 한 장 넘길 때마다 밭과 펫의 방이 달라져요. 그달의 모습은 앨범에 한 장씩 남습니다.",
       "genre": "펫 · 농장 · 가상 투자",
       "status": "iPhone · Android에서 만나보세요",
       "purchase": "무료로 시작할 수 있습니다. iPhone판에는 하단 배너 광고와 이를 영구적으로 없애는 선택형 일회성 구매가 있습니다. 플랫폼별 최신 조건은 각 스토어에서 확인하세요.",
@@ -44,7 +45,7 @@
         },
         {
           "title": "함께 커 가는 여덟 친구",
-          "body": "밥을 주고, 놀고, 청소하며 펫과 시간을 보냅니다. 돌봄과 수확의 경험이 친구의 성장 모습과 추억에 남습니다."
+          "body": "밥을 주고, 놀고, 방을 청소해요. 첫 씨앗의 싹부터 생일 케이크까지 펫과 보낸 달이 앨범에 남습니다."
         },
         {
           "title": "달력 한 장씩, 내 속도로",
@@ -71,16 +72,16 @@
       ],
       "gallery": [
         {
-          "src": "/products/stockpets/home.webp",
-          "caption": "집에서 밥 주기, 놀기, 청소하기로 친구를 돌봅니다."
+          "src": "/products/stockpets/planted-ko.webp",
+          "caption": "첫 씨앗을 심고 펫의 방에 돌아오면 작은 싹을 볼 수 있어요."
         },
         {
-          "src": "/products/stockpets/field.webp",
-          "caption": "과거 가격 변화에 따라 달라지는 나만의 텃밭입니다."
+          "src": "/products/stockpets/harvest-quote-ko.webp",
+          "caption": "수확할 비율을 골라 받을 코인과 밭에 남을 씨앗을 확인해요."
         },
         {
-          "src": "/products/stockpets/dex.webp",
-          "caption": "함께 보낸 시간이 펫의 성장 모습에 남습니다."
+          "src": "/products/stockpets/share-ko.webp",
+          "caption": "앨범 사진 전체를 확인한 뒤 이미지로 공유해요."
         }
       ],
       "faq": [
@@ -102,7 +103,7 @@
       "name": "StockPets",
       "tagline": "This life, a little farm of your own.",
       "description": "Return to 1996, care for pixel companions, and grow a farm shaped by historical US stock prices.",
-      "intro": "A small farm, a new friend, and a few hazy memories of the future. Plant a familiar company’s seed, harvest virtual coins, and turn a calendar page when you are ready.",
+      "intro": "Start a little farm with a pixel pet in January 1996. Spend virtual coins on seeds tied to US companies, then watch the farm and your pet’s room change as you turn the calendar. The album keeps a snapshot of each month.",
       "genre": "Pets · Farming · Virtual investing",
       "status": "Available for iPhone and Android",
       "purchase": "Free to start. The iPhone version includes bottom banner ads and an optional one-time purchase to remove them permanently. Check each store for current platform-specific terms.",
@@ -113,7 +114,7 @@
         },
         {
           "title": "Eight friends to grow alongside",
-          "body": "Feed, play, and clean as you spend time with your companion. Care and harvest experiences leave a mark on your pet’s growth and memories."
+          "body": "Feed your pet, play together, and clean the room. From the first sprout to birthday cake, the album keeps the months you spend together."
         },
         {
           "title": "One calendar page, at your own pace",
@@ -140,16 +141,16 @@
       ],
       "gallery": [
         {
-          "src": "/products/stockpets/home.webp",
-          "caption": "Feed, play, and clean as you care for your friend at home."
+          "src": "/products/stockpets/planted-en.webp",
+          "caption": "Your first seed sprouts in the room beside your pet."
         },
         {
-          "src": "/products/stockpets/field.webp",
-          "caption": "A little farm that changes with historical prices."
+          "src": "/products/stockpets/harvest-quote-en.webp",
+          "caption": "See how many coins you’ll receive and what will stay in the plot."
         },
         {
-          "src": "/products/stockpets/dex.webp",
-          "caption": "Time together leaves its mark on your companion."
+          "src": "/products/stockpets/share-en.webp",
+          "caption": "See the entire album card before sharing it as an image."
         }
       ],
       "faq": [

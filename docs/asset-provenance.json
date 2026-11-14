@@ -494,5 +494,41 @@
     "source": "midnightbunsik/qa/paid-content-review/after/first-play/s02.png",
     "sourceSha256": "473e0e09f1569e4ab90396b71abc7f679be08006378d62181d3ab322ad36ac5a",
     "sha256": "87390e3845256c8abd977d829b95a940c38f87a66c562b1c6f6c4ce239e44cf9"
+  },
+  {
+    "path": "products/stockpets/planted-ko.webp",
+    "source": "stockpets/docs/검수/20261113_StockPets_1.0.2_플레이경험/캡처/android-ko/after/planted.png",
+    "sourceSha256": "bc08c4d03eee0e52e8c52988383e88b91a7538e43c9def142a35b07b6957cf2b",
+    "sha256": "5d8c996260b8c8de16316786830ad4438a95438f6f5c0059399a2315c1f03cfd"
+  },
+  {
+    "path": "products/stockpets/harvest-quote-ko.webp",
+    "source": "stockpets/docs/검수/20261113_StockPets_1.0.2_플레이경험/캡처/android-ko/after/harvest-quote.png",
+    "sourceSha256": "f3b8b107bd27cb18395a1cf70b97d4a2f970c2c6b91cdc31a38f638d92e9d434",
+    "sha256": "2a5d3c1fc08b8cb7c39f7163d4e3b06bbfb244c0a9b5895bac814a4487b3bea0"
+  },
+  {
+    "path": "products/stockpets/share-ko.webp",
+    "source": "stockpets/docs/검수/20261113_StockPets_1.0.2_플레이경험/캡처/android-ko/after/share.png",
+    "sourceSha256": "23be301d78b56b351c972bfa9dfa6bc40feeff05a7e452a7678fe0e44fcb51eb",
+    "sha256": "3d750ab693b8d55374e507df22f7610c57c48d5cc14207ad891e1562922ee566"
+  },
+  {
+    "path": "products/stockpets/planted-en.webp",
+    "source": "stockpets/docs/검수/20261113_StockPets_1.0.2_플레이경험/캡처/ios-en/after/planted.png",
+    "sourceSha256": "5086246d99c1cc9b75d191f82e1703348c2cc02833acb48a541dd2855d140ba5",
+    "sha256": "18ff7ff637769af9098c7afb701d98b45549eab824579bcd8a9937b78dab1692"
+  },
+  {
+    "path": "products/stockpets/harvest-quote-en.webp",
+    "source": "stockpets/docs/검수/20261113_StockPets_1.0.2_플레이경험/캡처/ios-en/after/harvest-quote.png",
+    "sourceSha256": "a5d31988904c0a6c7df35b08b7a5227263b99538761ae11cd52da349c788943f",
+    "sha256": "e5650ee765e7ba3fdb9cce214e52092206b6c93c3fada193fe929dd8a9d101b6"
+  },
+  {
+    "path": "products/stockpets/share-en.webp",
+    "source": "stockpets/docs/검수/20261113_StockPets_1.0.2_플레이경험/캡처/ios-en/after/share.png",
+    "sourceSha256": "e3d2a0e9350c562a72ae49c0924c82d980d916789815bba6034af38483d02926",
+    "sha256": "0c3d27bf1494f4c74dcb5ed4f909050fe8402839a6398056b44482ae9cacc02b"
   }
 ]

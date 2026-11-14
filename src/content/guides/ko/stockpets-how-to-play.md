@@ -6,7 +6,7 @@ product: "stockpets"
 title: "스톡펫츠 하는 법: 처음 시작하는 분을 위한 규칙 총정리"
 description: "스톡펫츠 하는 법을 처음부터 정리했어요. 씨앗 심기와 수확, 달력 규칙, 농장 확장, 상장폐지 규칙과 첫 1년 순서까지 담았어요."
 date: "2026-10-09"
-updated: "2026-10-14"
+updated: "2026-11-14"
 art: {"label": "GROW TOGETHER", "sprites": ["crop_tomato_sprout"]}
 source: "https://stockpets.com/ko/guides/how-to-play/"
 ---
@@ -16,6 +16,8 @@ source: "https://stockpets.com/ko/guides/how-to-play/"
 ## 스톡펫츠는 어떻게 플레이하나요?
 
 스톡펫츠의 기본 흐름은 단순해요. 펫을 돌보고, 씨앗을 심고, 원하는 때에 수확한 다음, “다음 달로 가기”를 눌러 한 달을 보내요. 이 과정을 반복하면서 농장을 넓히고 방을 꾸미고, 펫이 자라는 모습을 지켜보는 거예요. 아래에 처음 켜는 순간부터 첫 1년까지 알아 두면 좋은 규칙을 순서대로 정리했어요.
+
+iPhone 1.0.2에서는 첫 씨앗을 심은 뒤 펫의 방에서 싹을 볼 수 있어요. 수확·선물·확장 화면에서 받을 코인과 지출 뒤에 남을 코인을 확인하세요. 달력이 떨어졌을 때는 다음 장이 들어오는 시각이 표시됩니다. [1.0.2 업데이트 소식](/ko/stockpets/blog/first-seed-update/)에서 달라진 화면을 살펴보세요.
 
 <figure class="article-sprites"><div><img src="/products/stockpets/pixel/crop_tomato_seed.png" alt="막 심은 토마토 씨앗 도트 그림" width="80" height="80" loading="lazy" /><img src="/products/stockpets/pixel/crop_tomato_sprout.png" alt="싹이 튼 토마토 작물" width="80" height="80" loading="lazy" /><img src="/products/stockpets/pixel/crop_tomato_flower.png" alt="꽃이 핀 토마토 작물" width="80" height="80" loading="lazy" /><img src="/products/stockpets/pixel/crop_tomato_fruit.png" alt="열매가 열린 토마토 작물" width="80" height="80" loading="lazy" /><img src="/products/stockpets/pixel/crop_tomato_wilt2.png" alt="시들어 버린 토마토 작물" width="80" height="80" loading="lazy" /></div><figcaption>작물은 가격 흐름에 따라 자라기도 하고 시들기도 해요.</figcaption></figure>
 

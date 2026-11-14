@@ -25,3 +25,5 @@ The owner requested the games' introduction/blog content inside PIBO. The three 
 ## Gameplay galleries · 2026-11-14
 
 The galleries use screenshots from the games’ own QA runs. Seoul Alley 1988 shows the first shop, the ledger or a daily receipt, and the alley. Jangdok Garden shows the yard, a jar, and the market menu. Midnight Bunsik shows the shop and the cooking screens for bibim noodles and mandu. The new WebP copies use lossless encoding. Their paths and both original and published SHA-256 hashes are in `asset-provenance.json`, relative to the local GitHub projects folder.
+
+The StockPets 1.0.2 gallery uses Korean and English QA screenshots of the first sprout, harvest preview, and album share preview. WebP copies are scaled for the web, and the iOS screenshots are cropped above the test ad area. The original captures and hashes are recorded in the same manifest.

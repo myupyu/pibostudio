@@ -11,8 +11,9 @@ Game source stays in independent game repositories. PIBO hosts each game's intro
 | Seoul Alley 1988 | `/seoul-alley-1988/` | `/seoul-alley-1988/blog/` | `/seoul-alley-1988/guides/` |
 | Jangdok Garden | `/jangdokgarden/` | `/jangdokgarden/blog/` | `/jangdokgarden/guides/` |
 | Midnight Bunsik | `/midnightbunsik/` | `/midnightbunsik/blog/` | `/midnightbunsik/guides/` |
+| StockPets | `/stockpets/` | `/stockpets/blog/` | `/stockpets/guides/` |
 
-Add `/ko` before each path for Korean. The three games have introductions with play screenshots, journals, and starting guides in both languages. The pages mark the games as in development. Midnight Bunsik's menu article retains its existing `seven-dishes` URL and now covers nine dishes.
+Add `/ko` before each path for Korean. Each game has an introduction with gameplay screenshots, a journal, and a play guide in both languages. Midnight Bunsik's menu article retains its existing `seven-dishes` URL and now covers nine dishes. The StockPets journal covers the first sprout, calendar, harvest and album improvements in iPhone 1.0.2, which is public on the Korean and US App Store.
 
 Cloudflare Pages builds production from `main`. The shared layout loads the existing `public/ga4.js` on public pages. The build generates `sitemap.xml`, `robots.txt`, both RSS feeds, and a custom `404.html` excluded from the sitemap.
 
