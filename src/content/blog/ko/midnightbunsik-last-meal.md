@@ -28,6 +28,6 @@ art: {"label": "ONE LAST MEAL", "sprites": ["tteokbokki", "sikhye"]}
 
 ## 아직 준비 중인 작은 가게
 
-저승분식은 한국어와 영어로 즐길 수 있는 iPhone 게임으로 준비 중입니다. 본편과 후속 이야기는 무료로 제공하고, 배너 광고는 한국 기준 4,900원으로 한 번 결제해 제거할 수 있도록 준비하고 있습니다. 정식 출시일은 아직 공개되지 않았습니다.
+저승분식은 한국어와 영어로 iOS와 Android 출시를 준비하고 있습니다. 본편과 후속 이야기는 무료이며, 배너 광고 제거는 선택형 일회성 구매로 제공할 예정입니다. [저승분식 소개](/ko/midnightbunsik/blog/meet-the-shop/)에서 가게 이야기와 출시 준비 소식을 확인하세요.
 
 [아홉 가지 분식을 차리는 손길](/ko/midnightbunsik/blog/seven-dishes/)과 [식탁에 남는 작은 기억](/ko/midnightbunsik/blog/a-table-that-remembers/)도 함께 읽어 보세요.

@@ -28,6 +28,6 @@ The first 21 nights contain the shop’s first story and its farewells. A conclu
 
 ## A little shop still being prepared
 
-Midnight Bunsik is in development for iPhone, with Korean and English text. The full story is planned as a free download with banners. Optional one-time ad removal has a planned Korean price of KRW 4,900. The public release date has yet to be announced.
+Midnight Bunsik is being prepared for iOS and Android in Korean and English. The full story and bonus chapters will be free, with an optional one-time purchase to remove banners. [Meet the shop](/midnightbunsik/blog/meet-the-shop/) for a look at the game and what changed before release.
 
 Read about [how to make nine dishes](/midnightbunsik/blog/seven-dishes/) and [a table that remembers](/midnightbunsik/blog/a-table-that-remembers/).

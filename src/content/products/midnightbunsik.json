@@ -2,11 +2,13 @@
   "slug": "midnightbunsik",
   "kind": "game",
   "status": "development",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "icon": "/products/midnightbunsik/icon.png",
   "socialImage": "/products/midnightbunsik/icon.png",
   "platforms": [
-    "iPhone"
+    "iPhone",
+    "iPad",
+    "Android"
   ],
   "accent": "night",
   "order": 1,
@@ -15,10 +17,10 @@
       "name": "저승분식",
       "tagline": "마지막 한 끼를 차리는 작은 가게.",
       "description": "자정에 문을 여는 분식집에서 아홉 가지 메뉴를 직접 차리고, 손님의 이야기를 들으며 식탁에 추억을 남기는 게임.",
-      "intro": "이승과 저승 사이의 분식집에서 견습 저승사자로 일합니다. 손님의 주문을 듣고, 직접 한 그릇을 차려 같은 식탁에 앉습니다. 손님이 떠난 뒤에도 그날의 기억은 가게에 남습니다.",
+      "intro": "이승과 저승 사이의 분식집에서 견습 저승사자로 첫 영업을 시작합니다. 떡볶이를 얼마나 맵게 할지, 손님에게 어떤 자리를 내어 줄지 직접 고릅니다. 첫 21밤 동안 사연을 들으며 한 끼씩 차리고, 그 뒤에는 골목에 남은 이웃들과 다시 식탁을 나눕니다.",
       "genre": "이야기 · 조리 · 꾸미기",
-      "status": "iPhone 출시 준비 중",
-      "purchase": "본편과 후속 이야기는 무료로 제공할 예정입니다. 배너 광고는 한국 기준 4,900원으로 한 번 결제해 제거할 수 있도록 준비하고 있습니다. 정식 출시일은 아직 공개되지 않았습니다.",
+      "status": "iOS · Android 출시 준비 중",
+      "purchase": "본편과 후속 이야기, 아홉 가지 조리를 모두 무료로 제공할 예정입니다. 배너를 없애는 광고 제거는 선택형 일회성 구매로 준비하고 있습니다. 공개 일정과 스토어 링크는 확인되는 대로 안내합니다.",
       "features": [
         {
           "title": "손으로 차리는 아홉 가지 메뉴",
@@ -31,6 +33,10 @@
         {
           "title": "내가 고른 식탁에 남는 기억",
           "body": "매운맛과 마무리, 앉을 자리와 작은 소품을 고릅니다. 식사가 끝난 뒤 손님의 반응과 가게에 남은 흔적으로 선택을 돌아봅니다."
+        },
+        {
+          "title": "내 페이스에 맞추는 조리",
+          "body": "보조 조리, 큰 글자, 움직임 줄이기를 선택할 수 있습니다. 저장한 식탁으로 다시 돌아와 원하는 만큼 천천히 플레이하세요."
         }
       ],
       "facts": [
@@ -68,7 +74,7 @@
       "faq": [
         {
           "q": "지금 다운로드할 수 있나요?",
-          "a": "현재 iPhone용 게임을 개발하고 내부 TestFlight에서 검토하고 있습니다. 공개 다운로드는 정식 출시 후 이 페이지에 안내합니다."
+          "a": "iOS는 내부 TestFlight에서 검수했고, Android판도 출시를 준비 중입니다. 공개 다운로드 링크는 각 플랫폼에서 이용 가능해진 뒤 이 페이지에 안내합니다."
         },
         {
           "q": "조리에 실패하면 이야기를 놓치나요?",
@@ -77,6 +83,10 @@
         {
           "q": "결말 뒤에도 계속 영업해야 하나요?",
           "a": "본편과 후속 이야기는 마무리가 있습니다. 이후에는 좋아하는 메뉴와 식탁을 위해 원할 때 영업하거나 쉬어도 됩니다."
+        },
+        {
+          "q": "오프라인으로 즐기거나 다른 기기로 옮길 수 있나요?",
+          "a": "계정 없이 인터넷이 끊겨도 이야기를 이어갈 수 있습니다. 진행은 기기에 저장되며, 기기를 바꾸거나 앱을 삭제하기 전에 설정에서 저장 파일을 내보낼 수 있습니다."
         }
       ]
     },
@@ -84,10 +94,10 @@
       "name": "Midnight Bunsik",
       "tagline": "A little shop. One last meal.",
       "description": "Serve nine Korean snack shop favorites, listen to your guests, and keep their memories at a little shop that opens at midnight.",
-      "intro": "You’re a reaper in training at a snack shop between the worlds of the living and the dead. Listen to each guest’s order, make their meal by hand, and share a little time at the table. The memory stays in the shop after they leave.",
+      "intro": "You’re a reaper in training, opening your first shift at a Korean snack shop between the living and the dead. Choose how spicy a dish should be and where to seat your guests. Over the first 21 nights you hear their stories one meal at a time. Afterward, there are neighbors who still have a place at your table.",
       "genre": "Story · Cooking · Decorating",
-      "status": "In development for iPhone",
-      "purchase": "The full story is planned as a free download with banners. Optional one-time ad removal has a planned Korean price of KRW 4,900. The public release date has yet to be announced.",
+      "status": "In preparation for iOS and Android",
+      "purchase": "The main story, follow-up, and all nine dishes are planned as a free download. Optional one-time ad removal is in preparation. Public dates and links will be listed here as they become available.",
       "features": [
         {
           "title": "Nine dishes to make by hand",
@@ -100,6 +110,10 @@
         {
           "title": "A table that remembers your choices",
           "body": "Choose heat, a finishing touch, a seat, and little keepsakes. Read a guest’s response and notice what remains after the meal."
+        },
+        {
+          "title": "Cook at your own pace",
+          "body": "Use assisted cooking, larger text, or reduced motion. Return to your saved shop and take as much time as you like."
         }
       ],
       "facts": [
@@ -137,7 +151,7 @@
       "faq": [
         {
           "q": "Can I download it now?",
-          "a": "The iPhone game is in development and being reviewed in internal TestFlight. Public download links will be added here after release."
+          "a": "The iOS version has been tested in internal TestFlight, and the Android version is in preparation. This page will link to each store when the game is available there."
         },
         {
           "q": "Will I miss the story if I cook badly?",
@@ -146,6 +160,10 @@
         {
           "q": "Do I have to keep working after the ending?",
           "a": "The main story and follow-up both conclude. Afterward, open for your favorite dishes and table arrangements whenever you like, or rest."
+        },
+        {
+          "q": "Can I play offline or move to another device?",
+          "a": "You can continue the story offline without an account. Progress stays on your device. Export a save from Settings before switching devices or removing the app."
         }
       ]
     }
