@@ -4,11 +4,9 @@ slug: "support"
 lang: "en"
 title: "Midnight Bunsik Support"
 description: "How to ask for help and keep your game record."
-date: "2026-10-14"
+date: "2026-11-15"
 product: "midnightbunsik"
 ---
-
-<!-- Draft for publication review. -->
 
 ## Get in touch
 
@@ -21,4 +19,4 @@ Export your record in the game’s Settings before changing devices or deleting 
 [Save and return guide](/midnightbunsik/guides/save-and-return/) · [Privacy policy](/midnightbunsik/privacy/)
 
 
-Ad removal is an optional one-time purchase in Settings. Restore it with the same Apple Account. New games and save imports do not alter ownership. Approved pending purchases update automatically. The story remains playable when ads or the network are unavailable.
+Ad removal is an optional one-time purchase in Settings. Restore it with the same Apple Account on iOS or the same Google Account on Android. New games and save imports do not alter ownership. Approved pending purchases update automatically. The story remains playable when ads or the network are unavailable.

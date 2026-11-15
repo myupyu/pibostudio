@@ -15,7 +15,7 @@ Progress and settings save automatically on your current device. Closing the app
 
 ## Export a save
 
-Choose Settings → Export save, then select a Files location or share destination. A third-party service follows its own policy. Files kept outside the original device are managed by you.
+Choose Settings → Export save. On iOS, pick a Files location or a sharing destination. On Android, choose where to save the file. A third-party service follows its own policy. Files kept outside the original device are managed by you.
 
 ## Import a save
 
@@ -23,6 +23,6 @@ Choose Settings → Import save and select a valid JSON save of up to 1 MB. Clos
 
 ## If progress cannot be read
 
-The game attempts to restore the last valid snapshot while preserving the original. If saving fails, export the current record and try saving again. If the problem continues, contact support with the app version, device model, iOS version, and steps to reproduce.
+The game attempts to restore the last valid snapshot while preserving the original. If saving fails, export the current record and try saving again. If the problem continues, contact support with the app version, device model, OS version, and steps to reproduce.
 
 [Game support](/midnightbunsik/support/) · [Privacy policy](/midnightbunsik/privacy/)

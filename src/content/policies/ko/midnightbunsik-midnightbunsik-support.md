@@ -4,11 +4,9 @@ slug: "support"
 lang: "ko"
 title: "저승분식 고객 지원"
 description: "문의 방법과 게임 기록 보관을 안내합니다."
-date: "2026-10-14"
+date: "2026-11-15"
 product: "midnightbunsik"
 ---
-
-<!-- Draft for publication review. -->
 
 ## 문의하기
 
@@ -21,4 +19,4 @@ product: "midnightbunsik"
 [저장·복귀 가이드](/ko/midnightbunsik/guides/save-and-return/) · [개인정보 처리방침](/ko/midnightbunsik/privacy/)
 
 
-광고 제거는 설정에서 한 번 구매하며 같은 Apple 계정으로 구매 복원을 사용할 수 있습니다. 새 게임이나 저장 가져오기는 구매 권한을 바꾸지 않습니다. 승인 대기는 완료 후 자동 반영됩니다. 앱과 광고는 별개이므로 연결이 끊겨도 이야기를 계속 즐길 수 있습니다.
+광고 제거는 설정에서 한 번 구매합니다. iOS에서는 같은 Apple 계정으로, Android에서는 같은 Google 계정으로 구매를 복원할 수 있습니다. 새 게임이나 저장 가져오기는 구매 권한을 바꾸지 않습니다. 승인 대기는 완료 후 자동 반영됩니다. 앱과 광고는 별개이므로 연결이 끊겨도 이야기를 계속 즐길 수 있습니다.
